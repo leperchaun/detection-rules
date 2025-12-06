@@ -65,6 +65,6 @@ jobs:
 
     - name: Update navigator gist files
       env:
-        GITHUB_TOKEN: "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"
+        GITHUB_TOKEN: "${{ secrets.WRITE_TRADEBOT_GIST_TOKEN }}"
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
       run: python -m detection_rules dev update-navigator-gists
