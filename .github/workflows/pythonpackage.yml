@@ -49,7 +49,7 @@ jobs:
 
     - name: Build release package
       env:
-        # only generate the navigator files on push events to maint
+        # only generate the navigator files on push events to main
         GENERATE_NAVIGATOR_FILES: "${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && '--generate-navigator' || ' ' }}"
       run: |
         python -m detection_rules dev build-release $GENERATE_NAVIGATOR_FILES
@@ -62,3 +62,9 @@ jobs:
         name: release-files
         path: |
           releases
+
+    - name: Update navigator gist files
+      env:
+        GITHUB_TOKEN: "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"
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+      run: python -m detection_rules dev update-navigator-gists
