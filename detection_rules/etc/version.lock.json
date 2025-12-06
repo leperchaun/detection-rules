@@ -42,10 +42,10 @@
     "version": 210
   },
   "015cca13-8832-49ac-a01b-a396114809f6": {
-    "rule_name": "AWS Redshift Cluster Creation",
-    "sha256": "485c2fd72b03d329a939d9aa2e0ed1fa869c9af0d75c6d1daaa066f99de00a26",
+    "rule_name": "Deprecated - AWS Redshift Cluster Creation",
+    "sha256": "f6e7e8c38698de53c1f503b5a483cd61fe060eba93c72f3d9d394148f9fb36ea",
     "type": "query",
-    "version": 209
+    "version": 210
   },
   "0171f283-ade7-4f87-9521-ac346c68cc9b": {
     "rule_name": "Potential Network Scan Detected",
@@ -313,9 +313,9 @@
   },
   "083383af-b9a4-42b7-a463-29c40efe7797": {
     "rule_name": "Potential PowerShell Obfuscation via Concatenated Dynamic Command Invocation",
-    "sha256": "42e7ee3fe98ad169a9e8019700d1dd08faf3bb4fa9e52be141236531ecb4d169",
+    "sha256": "6e52e18ff120d3bff710aa74aa982f64cac86f2118c253a5c9bb9aec07abfac1",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "083fa162-e790-4d85-9aeb-4fea04188adb": {
     "rule_name": "Suspicious Hidden Child Process of Launchd",
@@ -331,9 +331,9 @@
   },
   "0871a5d8-6b5f-4a12-a568-fd7bc05bd8db": {
     "rule_name": "Node.js Pre or Post-Install Script Execution",
-    "sha256": "548398463d4c38c2b93eeae4abccef6032dfbc90b31a756391e48524bd463888",
+    "sha256": "95dfc163dc1bc31c6f67c9956a92031cea559ff27d774bc621436fbce4e3c4be",
     "type": "eql",
-    "version": 2
+    "version": 3
   },
   "089db1af-740d-4d84-9a5b-babd6de143b0": {
     "rule_name": "Windows Account or Group Discovery",
@@ -463,9 +463,9 @@
   },
   "0bca7e73-e1b5-4fb2-801b-9b5f5be20dfe": {
     "rule_name": "Elastic Defend and Network Security Alerts Correlation",
-    "sha256": "183cf42353fc5c65f841949b0932e3d3f3b22db72e600770b7384c9763af5fb6",
+    "sha256": "b281f125d735190233c84c197200f75a9ce1b9a20f69899a5da830e6e319566d",
     "type": "esql",
-    "version": 1
+    "version": 2
   },
   "0c093569-dff9-42b6-87b1-0242d9f7d9b4": {
     "rule_name": "Processes with Trailing Spaces",
@@ -517,9 +517,9 @@
   },
   "0cd2f3e6-41da-40e6-b28b-466f688f00a6": {
     "rule_name": "AWS Bedrock Guardrails Detected Multiple Violations by a Single User Over a Session",
-    "sha256": "9d095c731b4c2d46ef473af7f62cb760bc1290a8a9ef4788e231d9ecebfdaecf",
+    "sha256": "2d520b970c95e1e70958288a6575a3b71c21e856ff41cb18b171b44506169b45",
     "type": "esql",
-    "version": 7
+    "version": 8
   },
   "0ce6487d-8069-4888-9ddd-61b52490cebc": {
     "rule_name": "Suspicious Mailbox Permission Delegation in Exchange Online",
@@ -535,9 +535,9 @@
   },
   "0d3d2254-2b4a-11f0-a019-f661ea17fbcc": {
     "rule_name": "Microsoft Entra ID Suspicious Session Reuse to Graph Access",
-    "sha256": "03e76b18164a77064f14c1555c43c90ea31874bf5060b6e700178e3deeccbeeb",
+    "sha256": "b32f370c015bc87d3327691efb6c5857e5df2ea848afca06a613dea840949d2c",
     "type": "esql",
-    "version": 6
+    "version": 7
   },
   "0d69150b-96f8-467c-a86d-a67a3378ce77": {
     "rule_name": "Nping Process Activity",
@@ -553,15 +553,15 @@
   },
   "0d92d30a-5f3e-4b71-bc3d-4a0c4914b7e0": {
     "rule_name": "AWS Access Token Used from Multiple Addresses",
-    "sha256": "367aa86bbae336557e47859aaa7ff46e28884858534ab2e3cf9f597679c3c3dd",
+    "sha256": "93219ea9af7930999ac9fc51d48af9813d2ce07bd6ebb01bdaf1ed29ce1cbc2c",
     "type": "esql",
-    "version": 104
+    "version": 105
   },
   "0e1af929-42ed-4262-a846-55a7c54e7c84": {
     "rule_name": "Unusual High Denied Sensitive Information Policy Blocks Detected",
-    "sha256": "7aff08d29ead13e4514a8f4d8ec07442b5d0682d2fcfc0107c6f5e7fb64e7567",
+    "sha256": "abe81409b4f3930ca47eebd6a12cc582818fdd323afa0d361dd47d0e3ae9a830",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "0e4367a0-a483-439d-ad2e-d90500b925fd": {
     "rule_name": "First Occurrence of User Agent For a GitHub Personal Access Token (PAT)",
@@ -577,9 +577,9 @@
   },
   "0e524fa6-eed3-11ef-82b4-f661ea17fbce": {
     "rule_name": "M365 OneDrive Excessive File Downloads with OAuth Token",
-    "sha256": "e0fc1db1622a8156c5b0701e10b162b8e5f8710ac73f34baa3029caa90ca4413",
+    "sha256": "209df2914c3df29a43c83a6cc831b51edf66f35045ab29e38f32f9d33c5eb3ab",
     "type": "esql",
-    "version": 5
+    "version": 6
   },
   "0e5acaae-6a64-4bbc-adb8-27649c03f7e1": {
     "rule_name": "GCP Service Account Key Creation",
@@ -691,9 +691,9 @@
   },
   "119c8877-8613-416d-a98a-96b6664ee73a": {
     "rule_name": "AWS RDS Snapshot Export",
-    "sha256": "0cde2bfbacf1d5ad63f6bb5e0964b3b5a2a15cf4882e8cba347f52c5989079da",
+    "sha256": "bed507515e00c4a06151d8f8fb70eff8c61569f774c6889d3cbda5bee2cb6010",
     "type": "query",
-    "version": 209
+    "version": 210
   },
   "119c8877-8613-416d-a98a-96b6664ee73a5": {
     "rule_name": "AWS RDS Snapshot Export",
@@ -799,9 +799,9 @@
   },
   "1397e1b9-0c90-4d24-8d7b-80598eb9bc9a": {
     "rule_name": "Potential Ransomware Behavior - Note Files by System",
-    "sha256": "0e44245d4fd649d451bf7f350dd734cfff04db46a625091fb2e7912e67f0e290",
+    "sha256": "c8be1c361eb28813ae976788b3d142fdfb4ac23c1e8157a3abe96b52908c91ef",
     "type": "esql",
-    "version": 212
+    "version": 213
   },
   "139c7458-566a-410c-a5cd-f80238d6a5cd": {
     "rule_name": "SQL Traffic to the Internet",
@@ -937,9 +937,9 @@
   },
   "16acac42-b2f9-4802-9290-d6c30914db6e": {
     "rule_name": "AWS S3 Static Site JavaScript File Uploaded",
-    "sha256": "e5a40d59b233e40a69435ad2be9799c61c53176c8b166c7608b426938b07fb61",
+    "sha256": "46853bef007704857149251e671e94fedbb18b86e98aa472a9ac8ade8c26c6f4",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "16fac1a1-21ee-4ca6-b720-458e3855d046": {
     "rule_name": "Startup/Logon Script added to Group Policy Object",
@@ -949,15 +949,15 @@
   },
   "1719ee47-89b8-4407-9d55-6dff2629dd4c": {
     "rule_name": "Persistence via a Windows Installer",
-    "sha256": "9d071673dc778a2ba73f917a3d9f6ec217c7c494f6a407363675471350a5deed",
+    "sha256": "11c0bff91c47efa25c0f5f167b3d977f3ac07a6fb5ff0158d88d3445efe327d9",
     "type": "eql",
-    "version": 4
+    "version": 5
   },
   "17261da3-a6d0-463c-aac8-ea1718afcd20": {
     "rule_name": "AWS Bedrock Detected Multiple Attempts to use Denied Models by a Single User",
-    "sha256": "852bbf9498b8b722277364bbd060e191e04de17966cf39f928840e4974f232cc",
+    "sha256": "5b8d5a1b99c6b3e9b8f23db751a98aa42d12ea85d9927aac93c2ed685d2b6655",
     "type": "esql",
-    "version": 6
+    "version": 7
   },
   "1781d055-5c66-4adf-9c59-fc0fa58336a5": {
     "rule_name": "Unusual Windows Username",
@@ -1015,9 +1015,9 @@
   },
   "17e68559-b274-4948-ad0b-f8415bb31126": {
     "rule_name": "Unusual Network Destination Domain Name",
-    "sha256": "599cc8905fe0fb2873fc02bca62c1ebf97d34b684180665e7e909d527e509ad7",
+    "sha256": "2f942b288c66f4480066469ad579758c9ff2fe4287501321cfcac506bd4e3288",
     "type": "machine_learning",
-    "version": 107
+    "version": 108
   },
   "181f6b23-3799-445e-9589-0018328a9e46": {
     "rule_name": "Script Execution via Microsoft HTML Application",
@@ -1057,9 +1057,9 @@
   },
   "192657ba-ab0e-4901-89a2-911d611eee98": {
     "rule_name": "Potential Persistence via File Modification",
-    "sha256": "2bfc3b450c5f44d97b88b26d385af8956ca80d7cb2d78e45b85b0df3fc06993d",
+    "sha256": "0199418e23bdf78a20dd96bd7572555513e8aaa1350c6e48d99cf860a48b9ba9",
     "type": "eql",
-    "version": 9
+    "version": 10
   },
   "193549e8-bb9e-466a-a7f9-7e783f5cb5a6": {
     "rule_name": "Potential Privilege Escalation via Recently Compiled Executable",
@@ -1075,15 +1075,15 @@
   },
   "19be0164-63d2-11ef-8e38-f661ea17fbce": {
     "rule_name": "AWS Service Quotas Multi-Region `GetServiceQuota` Requests",
-    "sha256": "7a1e11f1a8e05c40f236b9d16a6caa1d71dcb0ede87104a5c5cab05b1710499e",
+    "sha256": "93836865cdc9026a4cdaf2a69ae09fc7789927189af5f4ca4a359713fb12d8ec",
     "type": "esql",
-    "version": 5
+    "version": 6
   },
   "19de8096-e2b0-4bd8-80c9-34a820813fff": {
     "rule_name": "Rare AWS Error Code",
-    "sha256": "c5ccfa06fcb6ada608a35d93744993c3f48966ce6d4323197e222dcb5324993f",
+    "sha256": "b836fac20b0940bfc3175c371b5a9a9693cc738c58e02cce56b41be1d943bddb",
     "type": "machine_learning",
-    "version": 211
+    "version": 212
   },
   "19e9daf3-f5c5-4bc2-a9af-6b1e97098f03": {
     "rule_name": "Spike in Number of Processes in an RDP Session",
@@ -1111,9 +1111,9 @@
   },
   "1a3f2a4c-12d0-4b88-961a-2711ee295637": {
     "rule_name": "Potential System Tampering via File Modification",
-    "sha256": "103948de64613c9e00529640ef48bc2472935b80420628f0917df58b4f57ff10",
+    "sha256": "01016fb07b4de034fd77a549366e844c1df0ef74f37599b5e5b3dc0e87a4c168",
     "type": "eql",
-    "version": 2
+    "version": 3
   },
   "1a6075b0-7479-450e-8fe7-b8b8438ac570": {
     "rule_name": "Execution of COM object via Xwizard",
@@ -1217,6 +1217,12 @@
     "type": "eql",
     "version": 213
   },
+  "1d306bf0-7bcf-4acd-83fd-042f5711acc9": {
+    "rule_name": "Initial Access via File Upload Followed by GET Request",
+    "sha256": "ade923e9a75ae83f23b4e43de6019b0b82256abbbada04e3779f0cb16704c4dc",
+    "type": "eql",
+    "version": 1
+  },
   "1d485649-c486-4f1d-a99c-8d64795795ad": {
     "rule_name": "Potential CVE-2025-32463 Sudo Chroot Execution Attempt",
     "sha256": "c074d6687b59f8e9a8ddf9fb262efa268ccb014e0e218c7d1f8ee218f6d627eb",
@@ -1301,6 +1307,13 @@
     "type": "machine_learning",
     "version": 107
   },
+  "1eb74889-18c5-4f78-8010-d8aceb7a9ef4": {
+    "min_stack_version": "9.3",
+    "rule_name": "Spike in Azure Activity Logs Failed Messages",
+    "sha256": "9fcb6e7b7e9af013ceb8b6374e10c809c89fbfa0dff4be55d16f8b2c6148e1b2",
+    "type": "machine_learning",
+    "version": 1
+  },
   "1f0a69c0-3392-4adf-b7d5-6012fd292da8": {
     "rule_name": "Potential Antimalware Scan Interface Bypass via PowerShell",
     "sha256": "6a0e9e8d89d9acb5f15761864de10b2e020d6bd9fd2b38d95b05527ebd265d00",
@@ -1321,9 +1334,9 @@
   },
   "1fa350e0-0aa2-4055-bf8f-ab8b59233e59": {
     "rule_name": "High Number of Egress Network Connections from Unusual Executable",
-    "sha256": "73ff955e68e05576fc8ac61907278e7bd62c1ac9ec4f4303ccaeb69bdca65003",
+    "sha256": "c7a8ee25d1dbd3f36d7e967a1a1ade02348f712c5434c99e551d822ea1cd4f53",
     "type": "esql",
-    "version": 7
+    "version": 8
   },
   "1faec04b-d902-4f89-8aff-92cd9043c16f": {
     "rule_name": "Unusual Linux User Calling the Metadata Service",
@@ -1489,9 +1502,9 @@
   },
   "23f18264-2d6d-11ef-9413-f661ea17fbce": {
     "rule_name": "High Number of Okta Device Token Cookies Generated for Authentication",
-    "sha256": "5d77b9571fd9befb22e29f6cdfe893e29652ef95b68b9d1a4b92c1ea02d0a907",
+    "sha256": "9291369067936863eeba16c56062152ab56d940f747576a45d275649b1c22a5f",
     "type": "esql",
-    "version": 208
+    "version": 209
   },
   "24401eca-ad0b-4ff9-9431-487a8e183af9": {
     "rule_name": "New GitHub Owner Added",
@@ -1567,9 +1580,9 @@
   },
   "266bbea8-fcf9-4b0e-ba7b-fc00f6b1dc73": {
     "rule_name": "Unusual High Denied Topic Blocks Detected",
-    "sha256": "f402dc7309dd06392ef91427f1cb93e23a9faae48cc56345bad56494e78803fb",
+    "sha256": "2d8380692f5a4979d5ce42e2f909839300184905903c947860d8bd68208fd2a0",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "267dace3-a4de-4c94-a7b5-dd6c0f5482e5": {
     "rule_name": "Successful SSH Authentication from Unusual SSH Public Key",
@@ -1585,9 +1598,9 @@
   },
   "26b01043-4f04-4d2f-882a-5a1d2e95751b": {
     "rule_name": "Privileges Elevation via Parent Process PID Spoofing",
-    "sha256": "beb3cd25d9df9767e008011425e30dbaed0ffa3f3d1fc6ba941135fedad0e089",
+    "sha256": "7851f2067a7914e98ceb33a4459b1b3eaae624ac3470df3cddde0f895f395d3d",
     "type": "eql",
-    "version": 10
+    "version": 11
   },
   "26edba02-6979-4bce-920a-70b080a7be81": {
     "rule_name": "Azure Active Directory High Risk User Sign-in Heuristic",
@@ -1597,9 +1610,9 @@
   },
   "26f68dba-ce29-497b-8e13-b4fde1db5a2d": {
     "rule_name": "Potential Microsoft 365 User Account Brute Force",
-    "sha256": "2b183c8ff4b1adb9b82389b6ef12b826c27839a89dde915b512be9d4583499ce",
+    "sha256": "0fb493e61559cdde3c67997c7b484a73e2f559aaa48ea10c5fa2ffb791811d8d",
     "type": "esql",
-    "version": 415
+    "version": 416
   },
   "27071ea3-e806-4697-8abc-e22c92aa4293": {
     "rule_name": "PowerShell Script with Archive Compression Capabilities",
@@ -1651,9 +1664,9 @@
   },
   "28371aa1-14ed-46cf-ab5b-2fc7d1942278": {
     "rule_name": "Potential Widespread Malware Infection Across Multiple Hosts",
-    "sha256": "4b406b760e32e9a412057481852ee5187afe0ca95f051e000e375a52f6da5f6d",
+    "sha256": "ce81951ab3d4a4fdf53ec1d89559c7146d3adb5b6d73f7e417446e8307628be9",
     "type": "esql",
-    "version": 5
+    "version": 6
   },
   "2856446a-34e6-435b-9fb5-f8f040bfa7ed": {
     "rule_name": "Account Discovery Command via SYSTEM Account",
@@ -1735,9 +1748,9 @@
   },
   "29531d20-0e80-41d4-9ec6-d6b58e4a475c": {
     "rule_name": "Alerts in Different ATT&CK Tactics by Host",
-    "sha256": "91ff6f08e456191253b93c4f6f7cdb70f4adea410498e51b62b3dbc2432b4d78",
+    "sha256": "ef96e0347961cb915b50242a1db742cee619804412d681034c33589785ea28fb",
     "type": "esql",
-    "version": 1
+    "version": 2
   },
   "29b53942-7cd4-11ee-b70e-f661ea17fbcd": {
     "rule_name": "New Okta Identity Provider (IdP) Added by Admin",
@@ -1872,6 +1885,13 @@
     "type": "eql",
     "version": 5
   },
+  "2e08f34c-691c-497e-87de-5d794a1b2a53": {
+    "min_stack_version": "9.3",
+    "rule_name": "Unusual GCP Event for a User",
+    "sha256": "55a21a226a7f4725775a54520604ff27ad80dc2b5fdb23531a58c027ae21a46d",
+    "type": "machine_learning",
+    "version": 1
+  },
   "2e1e835d-01e5-48ca-b9fc-7a61f7f11902": {
     "rule_name": "Renamed Automation Script Interpreter",
     "sha256": "6a560a6ffcbba02c197efbaa1459015a7ee1a9f0dc30546961d0c558b4c86638",
@@ -1892,9 +1912,9 @@
   },
   "2e56e1bc-867a-11ee-b13e-f661ea17fbcd": {
     "rule_name": "Okta User Sessions Started from Different Geolocations",
-    "sha256": "279b0690d3f64f1daee0a3359ba854a476b3caa9d9bf86d9c005065b74ee0b61",
+    "sha256": "3f6b774f3199b84d9f0dead0df2939a3098f91aa984a7bdf1c99262304f6bdcd",
     "type": "esql",
-    "version": 309
+    "version": 310
   },
   "2e580225-2a58-48ef-938b-572933be06fe": {
     "rule_name": "Halfbaked Command and Control Beacon",
@@ -2024,9 +2044,9 @@
   },
   "3216949c-9300-4c53-b57a-221e364c6457": {
     "rule_name": "Unusual High Word Policy Blocks Detected",
-    "sha256": "c065de140770b25338ed259f21b0ba2ceba8fa855f7ea4c6532010e88a4b77e7",
+    "sha256": "ea6f2ae258927c808b9260a4a79009dc6f859468792276d8d246a24a8f0523c2",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "32300431-c2d5-432d-8ec8-0e03f9924756": {
     "rule_name": "Network Connection from Binary with RWX Memory Region",
@@ -2073,9 +2093,9 @@
   "32f95776-6498-4f3c-a90c-d4f6083e3901": {
     "min_stack_version": "9.1",
     "rule_name": "Potential Masquerading as Svchost",
-    "sha256": "4afcc293f2da3e0d75279f561aff916cea9a37c827cb4cfa6c093a43be40acf2",
+    "sha256": "17602e02794c80a4962603d43b6f2a425bf8c9fa8a18bccee46e4901738d8b81",
     "type": "esql",
-    "version": 1
+    "version": 2
   },
   "3302835b-0049-4004-a325-660b1fba1f67": {
     "rule_name": "Directory Creation in /bin directory",
@@ -2157,9 +2177,9 @@
   },
   "35ab3cfa-6c67-11ef-ab4d-f661ea17fbcc": {
     "rule_name": "Microsoft 365 Brute Force via Entra ID Sign-Ins",
-    "sha256": "b4aa448f1ff0dee03c06330055b66b242313310318eb1d2388060d1db5a1f5bc",
+    "sha256": "60c2fc11978852a996fb278f4aac315cd7c7f33e06b92629a06c3abd34ab6c92",
     "type": "esql",
-    "version": 108
+    "version": 109
   },
   "35c029c3-090e-4a25-b613-0b8099970fc1": {
     "rule_name": "File System Debugger Launched Inside a Container",
@@ -2175,9 +2195,9 @@
   },
   "35f86980-1fb1-4dff-b311-3be941549c8d": {
     "rule_name": "Network Traffic to Rare Destination Country",
-    "sha256": "f387323689ef2cf34009ce6de40a191fa010ffb20334c5a343789667490315d6",
+    "sha256": "2076f8bac484f53cb646463676897a5173dc94e42712835dcbc45c9f571f6a56",
     "type": "machine_learning",
-    "version": 107
+    "version": 108
   },
   "3605a013-6f0c-4f7d-88a5-326f5be262ec": {
     "rule_name": "Potential Privilege Escalation via Local Kerberos Relay over LDAP",
@@ -2187,9 +2207,9 @@
   },
   "36188365-f88f-4f70-8c1d-0b9554186b9c": {
     "rule_name": "Suspicious Microsoft 365 UserLoggedIn via OAuth Code",
-    "sha256": "2a1752d25fa88edec830a6f8170790bc4acda992a6769dddd9d791d5c6620733",
+    "sha256": "f7b8638c72aa4be24af5867692cba374ef22158cd85a167395211d894ca7f1a7",
     "type": "esql",
-    "version": 5
+    "version": 6
   },
   "3688577a-d196-11ec-90b0-f661ea17fbce": {
     "rule_name": "Process Started from Process ID (PID) File",
@@ -2223,9 +2243,9 @@
   },
   "375132c6-25d5-11f0-8745-f661ea17fbcd": {
     "rule_name": "Suspicious Microsoft OAuth Flow via Auth Broker to DRS",
-    "sha256": "fb4c20e6bcbe392646ae66c298b52541a50a92d963ab884abfd4da043c128e2e",
+    "sha256": "e3df906d83872fe513b2e15af933e5e5fa83dce1ca44852c161ad6e5f5abe99b",
     "type": "esql",
-    "version": 5
+    "version": 6
   },
   "378f9024-8a0c-46a5-aa08-ce147ac73a4e": {
     "rule_name": "Deprecated - AWS RDS Security Group Creation",
@@ -2319,9 +2339,9 @@
   },
   "393ef120-63d1-11ef-8e38-f661ea17fbce": {
     "rule_name": "AWS EC2 Multi-Region DescribeInstances API Calls",
-    "sha256": "61259a7fd31474e07ef6f32f1f11c3e7bd5e381656f8b667d4c02a8db21e117d",
+    "sha256": "de1af1001bd67fdd967b116f1da6193d98831a0be504bea9b4c08d2628929381",
     "type": "esql",
-    "version": 6
+    "version": 7
   },
   "397945f3-d39a-4e6f-8bcb-9656c2031438": {
     "rule_name": "Persistence via Microsoft Outlook VBA",
@@ -2427,9 +2447,9 @@
   },
   "3c7e32e6-6104-46d9-a06e-da0f8b5795a0": {
     "rule_name": "Unusual Linux Network Port Activity",
-    "sha256": "e28820cdef8824c303418b68a7e76996a4b6f9692520a06646c81c82c8ab4d6a",
+    "sha256": "90959aa7c932be6c768d07a768fca0c68d5723a9ef7996a75caa8f0bf3d55716",
     "type": "machine_learning",
-    "version": 107
+    "version": 108
   },
   "3c9f7901-01d8-465d-8dc0-5d46671035fa": {
     "rule_name": "Kernel Seeking Activity",
@@ -2454,6 +2474,12 @@
     "sha256": "ed6a046d68911151897cfdcf2a0520e0a12b11fffcb854b12c8e2cbde2d954b1",
     "type": "query",
     "version": 210
+  },
+  "3db029b3-fbb7-4697-ad07-33cbfd5bd080": {
+    "rule_name": "Suspicious Microsoft Entra ID Concurrent Sign-Ins via DeviceCode",
+    "sha256": "edb9a88b985bfcb8e17bf342de56a01e2c3b0c1af1d1e39ec78a5facbf86780a",
+    "type": "esql",
+    "version": 1
   },
   "3df49ff6-985d-11ef-88a1-f661ea17fbcd": {
     "rule_name": "AWS SNS Rare Protocol Subscription by User",
@@ -2559,9 +2585,9 @@
   },
   "3fac01b2-b811-11ef-b25b-f661ea17fbce": {
     "rule_name": "Microsoft Entra ID MFA TOTP Brute Force Attempts",
-    "sha256": "644c0b79e73cbe7f3ae2fc9bb89421c210207ab31270851e167fb2867f0eb2d1",
+    "sha256": "7f2ce0ff846c466f2258a4bbbc78e9e8cff7c4a1fc1af9105e4cd51b8bc34df6",
     "type": "esql",
-    "version": 6
+    "version": 7
   },
   "3fe4e20c-a600-4a86-9d98-3ecb1ef23550": {
     "rule_name": "DNF Package Manager Plugin File Creation",
@@ -2577,9 +2603,9 @@
   },
   "4021e78d-5293-48d3-adee-a70fa4c18fab": {
     "rule_name": "Potential Azure OpenAI Model Theft",
-    "sha256": "785d2c7d8206511fdb0a93798255102ab0b1c900ab4d7bc907fb1e30dde95ab4",
+    "sha256": "f5943841572ea047091c8d64f568053c517e10ee41b48cb5f13a403583415c62",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "4030c951-448a-4017-a2da-ed60f6d14f4f": {
     "rule_name": "GitHub User Blocked From Organization",
@@ -2592,6 +2618,12 @@
     "sha256": "53ec3c9de6cdade61cc0a64a9f0a1f4b8eb7587226bd349f521eee3cec24e2cc",
     "type": "eql",
     "version": 315
+  },
+  "40c34c8a-b0bc-43bc-83aa-d2b76bf129e1": {
+    "rule_name": "New GitHub Self Hosted Action Runner",
+    "sha256": "afbae386edf6dfb7e342c2fe33cd1ac8a58684a2d50313d22bba2a50c259afb8",
+    "type": "new_terms",
+    "version": 1
   },
   "40ddbcc8-6561-44d9-afc8-eefdbfe0cccd": {
     "rule_name": "Suspicious Modprobe File Event",
@@ -2749,6 +2781,13 @@
     "type": "query",
     "version": 215
   },
+  "45d099b4-a12e-4913-951c-0129f73efb41": {
+    "min_stack_version": "9.2",
+    "rule_name": "Web Server Potential Remote File Inclusion Activity",
+    "sha256": "08a79be13d5d5eeea7863d1adc19c333a4f42735692add0e64ca72bf82995cb2",
+    "type": "esql",
+    "version": 1
+  },
   "45d273fb-1dca-457d-9855-bcb302180c21": {
     "rule_name": "Encrypting Files with WinRar or 7z",
     "sha256": "d587f84061510af81e4d24d6a46b7d23a87048e8f6d3d1172b32452a1d829ae5",
@@ -2779,6 +2818,12 @@
     "type": "machine_learning",
     "version": 108
   },
+  "472b4944-d810-43cf-83dc-7d080ae1b8dd": {
+    "rule_name": "Multiple Cloud Secrets Accessed by Source Address",
+    "sha256": "11e9285b4131503c0f7caedd54c0185cce68c2d53adc044f4eee511bfee5f8bc",
+    "type": "esql",
+    "version": 1
+  },
   "474fd20e-14cc-49c5-8160-d9ab4ba16c8b": {
     "rule_name": "System V Init Script Created",
     "sha256": "962ab60a7b6b0263c7388f0355f15fac1e3a3d9003b2d0ab2d625af6b790d76a",
@@ -2787,9 +2832,9 @@
   },
   "47595dea-452b-4d37-b82d-6dd691325139": {
     "rule_name": "Credential Access via TruffleHog Execution",
-    "sha256": "be16d5f3a77572e7460510d143328a666363e19e7d40eca3719eb3d2a314ff6b",
+    "sha256": "0ebaa20afe2747b15511424d174dff2a614551b155f5398c86ae2a524375e129",
     "type": "eql",
-    "version": 1
+    "version": 2
   },
   "475b42f0-61fb-4ef0-8a85-597458bfb0a1": {
     "rule_name": "Deprecated - Sensitive Files Compression Inside A Container",
@@ -2878,9 +2923,9 @@
   },
   "493834ca-f861-414c-8602-150d5505b777": {
     "rule_name": "Agent Spoofing - Multiple Hosts Using Same Agent",
-    "sha256": "fe17e607ad2830bc9dc99dc2d8815acafa629dc9ba920c3ab7d4feaa42e9fecf",
+    "sha256": "2b707f6a7f76e64e28c20b72e1b86b7d38a6412c79c4bb260432fb081a0969d3",
     "type": "esql",
-    "version": 104
+    "version": 105
   },
   "494ebba4-ecb7-4be4-8c6f-654c686549ad": {
     "rule_name": "Potential Linux Backdoor User Account Creation",
@@ -2908,9 +2953,9 @@
   },
   "498e4094-60e7-11f0-8847-f661ea17fbcd": {
     "rule_name": "OIDC Discovery URL Changed in Entra ID",
-    "sha256": "314c7fb5e3c52fc65ff69e1076eb58380ae51c5842f5a9d171cf6300f6ff717d",
+    "sha256": "7722977ca172c15543358ec4ecf8b7596fcd1af66ef4e74cca3f684da5c8ba98",
     "type": "esql",
-    "version": 5
+    "version": 6
   },
   "4a4e23cf-78a2-449c-bac3-701924c269d3": {
     "rule_name": "Possible FIN7 DGA Command and Control Behavior",
@@ -3082,9 +3127,9 @@
   },
   "4f855297-c8e0-4097-9d97-d653f7e471c4": {
     "rule_name": "Unusual High Confidence Content Filter Blocks Detected",
-    "sha256": "182bc938e327e6c65baf1a2fa6331963551b438902b9978d4d203832c22df4d6",
+    "sha256": "0049ba0ec56c95ad65db5e90c32b96b6524f6b46b3ec05aa89ff6eedbc0a0a36",
     "type": "esql",
-    "version": 8
+    "version": 9
   },
   "4fe9d835-40e1-452d-8230-17c147cafad8": {
     "rule_name": "Execution via TSClient Mountpoint",
@@ -3190,9 +3235,9 @@
   },
   "52afbdc5-db15-485e-bc24-f5707f820c4b": {
     "rule_name": "Unusual Linux Network Activity",
-    "sha256": "ab770d636e60e934030892c3300fbde621dafef776555bd84887bb2d146ec07d",
+    "sha256": "62bd8f8c90f70c3a4eb3671d95b3b6e54bd72c9902ec472ed75dbc680856fa84",
     "type": "machine_learning",
-    "version": 107
+    "version": 108
   },
   "52afbdc5-db15-485e-bc35-f5707f820c4c": {
     "rule_name": "Unusual Linux Web Activity",
@@ -3219,16 +3264,23 @@
     "version": 14
   },
   "536997f7-ae73-447d-a12d-bff1e8f5f0a0": {
-    "rule_name": "AWS EFS File System or Mount Deleted",
-    "sha256": "0937e3ed0e1bfaded40e2d98b86747c93987130ca395825e0d477467a192e258",
+    "rule_name": "AWS EFS File System Deleted",
+    "sha256": "609ed621a69c3390bab0a9033977e866424574af96e87ba8f51ba3731d8ad7cd",
     "type": "query",
-    "version": 209
+    "version": 210
   },
   "5370d4cd-2bb3-4d71-abf5-1e1d0ff5a2de": {
     "rule_name": "Azure Diagnostic Settings Deletion",
     "sha256": "20dfa2cd072c1973e41969f194ff569ed83c6450057f594d65be3e5464b5f796",
     "type": "new_terms",
     "version": 107
+  },
+  "5378a829-30c2-435a-a0f2-e3d794bd6f80": {
+    "min_stack_version": "9.3",
+    "rule_name": "Rare GCP Audit Failure Event Code",
+    "sha256": "68286b273629f0e76ab3ed11d530a7aa0bafc6f2fce33cc438cee7402360c949",
+    "type": "machine_learning",
+    "version": 1
   },
   "5397080f-34e5-449b-8e9c-4c8083d7ccc6": {
     "rule_name": "Statistical Model Detected C2 Beaconing Activity",
@@ -3392,6 +3444,12 @@
     "type": "eql",
     "version": 208
   },
+  "57e118c1-19eb-4c20-93a6-8a6c30a5b48b": {
+    "rule_name": "Remote GitHub Actions Runner Registration",
+    "sha256": "1d0cb6b6f76ce755ca5fb4d086cbe1b222f7cf1a54d1751338d1440ff5acdcc3",
+    "type": "eql",
+    "version": 1
+  },
   "581add16-df76-42bb-af8e-c979bfb39a59": {
     "rule_name": "Backup Deletion with Wbadmin",
     "sha256": "bd99f1c1dc1bbc1957f29cd1c182ab5d00d9770fd4dd77a724fee4634f6f8135",
@@ -3427,6 +3485,12 @@
     "sha256": "aa0faf0feeded63930dae2ccaac0af504981592f7e7e9ecd84e12b30fbe3dc0a",
     "type": "eql",
     "version": 114
+  },
+  "590fc62d-7386-4c75-92b0-af4517018da1": {
+    "rule_name": "Unusual Process Modifying GenAI Configuration File",
+    "sha256": "d15498a6c01273b39703c3016c982fcab89864cd34a4a815be7323f64ad64615",
+    "type": "new_terms",
+    "version": 1
   },
   "5919988c-29e1-4908-83aa-1f087a838f63": {
     "rule_name": "File or Directory Deletion Command",
@@ -3478,9 +3542,9 @@
   },
   "5a876e0d-d39a-49b9-8ad8-19c9b622203b": {
     "rule_name": "Command Line Obfuscation via Whitespace Padding",
-    "sha256": "a09caeed705d76bf1319270c22c103581fd6f70eb26274edf57869f996ecf4c0",
+    "sha256": "e8e4200bfd160124ebd18fa2e0136a6e6a467bbd77c38003b4679d2c28ac425a",
     "type": "esql",
-    "version": 2
+    "version": 3
   },
   "5ab49127-b1b3-46e6-8a38-9e8512a2a363": {
     "rule_name": "ROT Encoded Python Script Execution",
@@ -3898,9 +3962,9 @@
   },
   "64f17c52-6c6e-479e-ba72-236f3df18f3d": {
     "rule_name": "Potential PowerShell Obfuscation via Invalid Escape Sequences",
-    "sha256": "b6cf23674580c2fcf3dd499e987b22b13642b9b8c7eef303611731dcf5d95d3b",
+    "sha256": "d893d8c9444dbbfe84f3fea58dfaaa729caab3cbd109063ed8ca06af9f3cd87a",
     "type": "esql",
-    "version": 6
+    "version": 7
   },
   "6505e02e-28dd-41cd-b18f-64e649caa4e2": {
     "rule_name": "Manual Memory Dumping via Proc Filesystem",
@@ -3932,6 +3996,12 @@
     "type": "new_terms",
     "version": 3
   },
+  "65f28c4d-cfc8-4847-9cca-f2fb1e319151": {
+    "rule_name": "Unusual Web Server Command Execution",
+    "sha256": "c8861aabb1a921813ca753e9872afbd35cf47a252bf23baa13dbeef106ede247",
+    "type": "new_terms",
+    "version": 1
+  },
   "65f9bccd-510b-40df-8263-334f03174fed": {
     "rule_name": "Kubernetes Exposed Service Created With Type NodePort",
     "sha256": "2962f75c4c913a7ae6568d692aa100bc991b3f0a49913ed652b7423b7d56b4cd",
@@ -3946,9 +4016,9 @@
   },
   "6631a759-4559-4c33-a392-13f146c8bcc4": {
     "rule_name": "Potential Spike in Web Server Error Logs",
-    "sha256": "98be4f9eef1a15a275f88c7d941c841e8bf9c82a05e15cb84747255c255d396c",
+    "sha256": "4984c7495dd356bb21d0f807c82bed938cb234378c11547fd1ad99711ae583d1",
     "type": "esql",
-    "version": 1
+    "version": 2
   },
   "6641a5af-fb7e-487a-adc4-9e6503365318": {
     "rule_name": "Suspicious Termination of ESXI Process",
@@ -3976,9 +4046,9 @@
   },
   "66883649-f908-4a5b-a1e0-54090a1d3a32": {
     "rule_name": "Connection to Commonly Abused Web Services",
-    "sha256": "ed15ffb242f86a6f50709786a298deaf34a408fe5da570d4456f637e5ac04586",
+    "sha256": "341b1d747c5f1911c4deea9190dfab0c542a5d1d67dcc459764f21997264f460",
     "type": "eql",
-    "version": 123
+    "version": 124
   },
   "66c058f3-99f4-4d18-952b-43348f2577a0": {
     "rule_name": "Linux Process Hooking via GDB",
@@ -4012,9 +4082,9 @@
   },
   "6756ee27-9152-479b-9b73-54b5bbda301c": {
     "rule_name": "Rare Connection to WebDAV Target",
-    "sha256": "967542c9e365ae3208bfef2073ef7dac00b601c61d74a4487fd3c413c9c9bb3e",
+    "sha256": "3dbcad97c253df8837fbde5b7aab45c070d2f8d420db11d64d180f85e3cec416",
     "type": "esql",
-    "version": 3
+    "version": 4
   },
   "676cff2b-450b-4cf1-8ed2-c0c58a4a2dd7": {
     "rule_name": "Attempt to Revoke Okta API Token",
@@ -4120,9 +4190,9 @@
   },
   "696015ef-718e-40ff-ac4a-cc2ba88dbeeb": {
     "rule_name": "AWS IAM User Created Access Keys For Another User",
-    "sha256": "c6a4f5ea4aaf2828aef98df69aee67219d99ba0ecd246d64ac8e4fa54c502bb7",
+    "sha256": "7b39cd5eb1265b38b23ac4a4fd9eac4a5e4b88e749188c3227771a3ae3177289",
     "type": "esql",
-    "version": 9
+    "version": 10
   },
   "699e9fdb-b77c-4c01-995c-1c15019b9c43": {
     "rule_name": "Deprecated - Threat Intel Filebeat Module (v8.x) Indicator Match",
@@ -4180,9 +4250,9 @@
   },
   "6b341d03-1d63-41ac-841a-2009c86959ca": {
     "rule_name": "Potential Port Scanning Activity from Compromised Host",
-    "sha256": "4cbe1754a667553d0a4cb76f864dbb5f767e24d89bb28bdc19299c59bf411ef5",
+    "sha256": "7406d86097a7422ef6dff1c3698fde719b64bc5d3f873821eb28bfb4cac1318e",
     "type": "esql",
-    "version": 8
+    "version": 9
   },
   "6b84d470-9036-4cc0-a27c-6d90bbfe81ab": {
     "rule_name": "Sensitive Files Compression",
@@ -4234,9 +4304,9 @@
   },
   "6ddb6c33-00ce-4acd-832a-24b251512023": {
     "rule_name": "Potential PowerShell Obfuscation via Special Character Overuse",
-    "sha256": "d84e236eff45eec22ad50a0288a325163adbb643b1dfa20e9db617201fe58709",
+    "sha256": "e60a9a5152174d019c6fbdb953b49ec5bff6c8bcb406514207e80e1e266fa6db",
     "type": "esql",
-    "version": 5
+    "version": 6
   },
   "6ded0996-7d4b-40f2-bf4a-6913e7591795": {
     "rule_name": "Root Certificate Installation",
@@ -4348,9 +4418,9 @@
   },
   "6fa3abe3-9cd8-41de-951b-51ed8f710523": {
     "rule_name": "Web Server Potential Spike in Error Response Codes",
-    "sha256": "8b34b274384a2853c8fe78423e0cc186bc5ae6593ca179b7160bb5e5d818efb5",
+    "sha256": "64ddc46a46a85f0fb833bf23596f70cd41b2c1a6aa1a28a9a3ef2fd651ca7bbe",
     "type": "esql",
-    "version": 1
+    "version": 2
   },
   "6fb2280a-d91a-4e64-a97e-1332284d9391": {
     "rule_name": "Spike in Special Privilege Use Events",
@@ -4462,9 +4532,9 @@
   },
   "725a048a-88c5-4fc7-8677-a44fc0031822": {
     "rule_name": "AWS Bedrock Detected Multiple Validation Exception Errors by a Single User",
-    "sha256": "4dd3bc4d2338df9e5861a9dd612da6fa7b5e626521e7802ad9e0b71c51f0d760",
+    "sha256": "f3a375efa9dad165b0ceee2708b1a82c91b5e018d88c7a9b2e3e9b92105cc17e",
     "type": "esql",
-    "version": 6
+    "version": 7
   },
   "7290be75-2e10-49ec-b387-d4ed55b920ff": {
     "rule_name": "Suspicious Network Tool Launched Inside A Container",
@@ -4552,9 +4622,9 @@
   },
   "74f45152-9aee-11ef-b0a5-f661ea17fbcd": {
     "rule_name": "AWS Discovery API Calls via CLI from a Single Resource",
-    "sha256": "d924ef5485e75e0c8853ab00ccb0ec1126e4e5422f67a276e9ef7ac8c0fb84d7",
+    "sha256": "53be035e01bd869c4c8f86c9ace24ef2f4e616229a67d7fdc7f988937f3027c0",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "751b0329-7295-4682-b9c7-4473b99add69": {
     "rule_name": "Spike in Group Management Events",
@@ -4616,6 +4686,13 @@
     "type": "eql",
     "version": 210
   },
+  "76de17b9-af25-49a0-9378-02888b6bb3a2": {
+    "min_stack_version": "9.3",
+    "rule_name": "Unusual Country for an Azure Activity Logs Event",
+    "sha256": "6e2b272fb38bf7886334ff0c12064ff163ad2a862d7877640232650dd7f3582f",
+    "type": "machine_learning",
+    "version": 1
+  },
   "76e4d92b-61c1-4a95-ab61-5fd94179a1ee": {
     "rule_name": "Potential Reverse Shell via Suspicious Child Process",
     "sha256": "e37578d05357bf909b630eef6138c68d1fe2d0d1da0edd81db1acd44ba659e46",
@@ -4636,9 +4713,9 @@
   },
   "77122db4-5876-4127-b91b-6c179eb21f88": {
     "rule_name": "Potential Malware-Driven SSH Brute Force Attempt",
-    "sha256": "c5ea04c01e2e9217a341f891ca0800fd62e99df382ee2be595da6d5f98f84b14",
+    "sha256": "8636de92418ba0fb4da7c8ecf7acdb02dc3d945c502ffcedf1c9f4dcdcf5827f",
     "type": "esql",
-    "version": 7
+    "version": 8
   },
   "774f5e28-7b75-4a58-b94e-41bf060fdd86": {
     "rule_name": "User Added as Owner for Azure Application",
@@ -4684,9 +4761,9 @@
   },
   "78d3d8d9-b476-451d-a9e0-7a5addd70670": {
     "rule_name": "Spike in AWS Error Messages",
-    "sha256": "23b9183b0b627393d88469e86e1b3ed49184a6b912ce0286003e993fe66341db",
+    "sha256": "ded06db1377caef944e1ffc5df502ec0a2060571e408b0973f71c22b6a2d0c89",
     "type": "machine_learning",
-    "version": 211
+    "version": 212
   },
   "78de1aeb-5225-4067-b8cc-f4a1de8a8546": {
     "rule_name": "Suspicious ScreenConnect Client Child Process",
@@ -4916,9 +4993,15 @@
   },
   "7f65f984-5642-4291-a0a0-2bbefce4c617": {
     "rule_name": "Python Path File (pth) Creation",
-    "sha256": "51f4a31fd30564d6ed4c5f7b2b7fc3a1dcc968bde90c6d00593f4bc6e8ac17a3",
+    "sha256": "e59c0b9eacb4545d608aaddd4b9af94f9ee69288094831c2ca30b6f0308083d0",
     "type": "eql",
-    "version": 3
+    "version": 4
+  },
+  "7f7a0ee1-7b6f-466a-85b4-110fb105f5e2": {
+    "rule_name": "Web Server Potential SQL Injection Request",
+    "sha256": "204cd779dc6031bd76983b73b78317c57c9d6f994ce37c34e79baba33312ffdb",
+    "type": "eql",
+    "version": 1
   },
   "7f89afef-9fc5-4e7b-bf16-75ffdf27f8db": {
     "rule_name": "Discovery of Internet Capabilities via Built-in Tools",
@@ -4958,9 +5041,9 @@
   },
   "8025db49-c57c-4fc0-bd86-7ccd6d10a35a": {
     "rule_name": "Potential PowerShell Obfuscated Script",
-    "sha256": "2704d9f00e0dde549f0ed2acc2e4b4c78b56ce3b6abbbce8060a543e57798f86",
+    "sha256": "21338d52150e45c05db894e54d90d6ef1f3db44cf524a501e31309cfbb983e05",
     "type": "query",
-    "version": 107
+    "version": 108
   },
   "804a7ac8-fc00-11ee-924b-f661ea17fbce": {
     "rule_name": "AWS SSM Session Started to EC2 Instance",
@@ -4976,9 +5059,9 @@
   },
   "809b70d3-e2c3-455e-af1b-2626a5a1a276": {
     "rule_name": "Unusual City For an AWS Command",
-    "sha256": "badc6a5976ec7afe16af98d9d59d033002ebd31687f59d4d87a8427d710dfbeb",
+    "sha256": "272e14dd9496c7030d82926713a2ce20703c2bbdd138ab8e3102543dec9d6ed8",
     "type": "machine_learning",
-    "version": 211
+    "version": 212
   },
   "80c52164-c82a-402c-9964-852533d58be1": {
     "rule_name": "Process Injection - Detected - Elastic Endgame",
@@ -4997,6 +5080,13 @@
     "sha256": "55f0e104f32d7176a919ccdf1768da387c1690ab1193ab198d38489a7207064c",
     "type": "new_terms",
     "version": 3
+  },
+  "81892f44-4946-4b27-95d3-1d8929b114a7": {
+    "min_stack_version": "9.3",
+    "rule_name": "Unusual Azure Activity Logs Event for a User",
+    "sha256": "7a2045650ad3d4facd22fa2cd950fc523096673401fbde27c2dab354bd934a23",
+    "type": "machine_learning",
+    "version": 1
   },
   "818e23e6-2094-4f0e-8c01-22d30f3506c6": {
     "rule_name": "PowerShell Script Block Logging Disabled",
@@ -5048,9 +5138,9 @@
   },
   "8383a8d0-008b-47a5-94e5-496629dc3590": {
     "rule_name": "Web Server Discovery or Fuzzing Activity",
-    "sha256": "5d0314db6259c4f5884084701984c5316aff5eac3c9e1f0fdd188abdf96aba43",
+    "sha256": "19caf8e194112571fdb0275b14b74cb49a52a3c6f7ea2f20d102c007ff9a133d",
     "type": "esql",
-    "version": 1
+    "version": 2
   },
   "83a1931d-8136-46fc-b7b9-2db4f639e014": {
     "rule_name": "Azure Kubernetes Pods Deleted",
@@ -5066,9 +5156,9 @@
   },
   "83bf249e-4348-47ba-9741-1202a09556ad": {
     "rule_name": "Suspicious Windows Powershell Arguments",
-    "sha256": "793552a1e01c4b4aaee3794578a3ecb4512bed33213c33b666bf453e7edd7aa2",
+    "sha256": "0347e6f35d144ad0df73bc8c69dd91de5d8d5e226494bf2511856671f3c94808",
     "type": "eql",
-    "version": 209
+    "version": 210
   },
   "83e9c2b3-24ef-4c1d-a8cd-5ebafb5dfa2f": {
     "rule_name": "Attempt to Disable IPTables or Firewall",
@@ -5090,9 +5180,9 @@
   },
   "84755a05-78c8-4430-8681-89cd6c857d71": {
     "rule_name": "At Job Created or Modified",
-    "sha256": "4b40c8d4568713d94d3041b310220b96e926d642d9216b845db1d0aca6f8a500",
+    "sha256": "6e504e70a35be24ee291ec0ba421905fc26fddf57819413dbe239482adfba4c9",
     "type": "eql",
-    "version": 5
+    "version": 6
   },
   "84d1f8db-207f-45ab-a578-921d91c23eb2": {
     "rule_name": "Potential Upgrade of Non-interactive Shell",
@@ -5114,21 +5204,21 @@
   },
   "852c1f19-68e8-43a6-9dce-340771fe1be3": {
     "rule_name": "Suspicious PowerShell Engine ImageLoad",
-    "sha256": "2b68e3314eed43cc0d2bdc768e13c39f48e52778ff8449c187251249a074dc64",
+    "sha256": "bb796fbb6709db50cf45bb757855ee8bc991b319103faac34de21cd08d1bbc00",
     "type": "new_terms",
-    "version": 214
+    "version": 215
   },
   "85e2d45e-a3df-4acf-83d3-21805f564ff4": {
     "rule_name": "Potential PowerShell Obfuscation via Character Array Reconstruction",
-    "sha256": "e0010b13da80d6b7d6a418117dcfeb8273b72aaf61c191ca8ab299b54b0424df",
+    "sha256": "51bb90675403108a89d3ca82a9522eca554715b7f0854c28c93121f1c5648fb6",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "860f2a03-a1cf-48d6-a674-c6d62ae608a1": {
     "rule_name": "Potential Subnet Scanning Activity from Compromised Host",
-    "sha256": "7b88c16b3a50cdd64c588552cd68380d78a9acb36688af8465c9be3bd6d5df4b",
+    "sha256": "2e528cbe49d075785c8bfdb56f1f98a894355c967ffedb16520edafc3eb1b59b",
     "type": "esql",
-    "version": 7
+    "version": 8
   },
   "8623535c-1e17-44e1-aa97-7a0699c3037d": {
     "rule_name": "AWS EC2 Network Access Control List Deletion",
@@ -5234,9 +5324,9 @@
   },
   "894b7cc9-040b-427c-aca5-36b40d3667bf": {
     "rule_name": "Unusual File Creation by Web Server",
-    "sha256": "1e140b1d8d63484bf1b2a20cfcc4c548aae15c70c3bf5382f3f892ccc5870e8d",
+    "sha256": "fa5fc4ccea16df933ee8257a2e7743b75e88d0885c61ae805f69b2541793766a",
     "type": "esql",
-    "version": 5
+    "version": 6
   },
   "89583d1b-3c2e-4606-8b74-0a9fd2248e88": {
     "rule_name": "Linux Restricted Shell Breakout via the vi command",
@@ -5306,9 +5396,9 @@
   },
   "8a7933b4-9d0a-4c1c-bda5-e39fb045ff1d": {
     "rule_name": "Unusual Command Execution from Web Server Parent",
-    "sha256": "fee2ba485ac76d3a424267b1b9ea79a82de6a3ac864903b1dcbd7f8f5b461ebd",
+    "sha256": "b46ae0c3ec957325459e7b26755db5f31c216654a2fffa191c8814e5cfc43e8b",
     "type": "esql",
-    "version": 7
+    "version": 8
   },
   "8acb7614-1d92-4359-bfcf-478b6d9de150": {
     "rule_name": "Deprecated - Suspicious JAVA Child Process",
@@ -5444,9 +5534,9 @@
   },
   "8e7a4f2c-9b3d-4e5a-a1b6-c2d8f7e9b3a5": {
     "rule_name": "Entra ID Actor Token User Impersonation Abuse",
-    "sha256": "35cb8615df63c9d7ba4a2ad93bf9a1177c7be7644dc539f8ea476d1296d9ddad",
+    "sha256": "f0002ccc4d3221a379817a1e25586dec156802adb108d2cd819bf3c807df770b",
     "type": "esql",
-    "version": 2
+    "version": 3
   },
   "8eec4df1-4b4b-4502-b6c3-c788714604c9": {
     "rule_name": "Bitsadmin Activity",
@@ -5456,9 +5546,9 @@
   },
   "8eeeda11-dca6-4c3e-910f-7089db412d1c": {
     "rule_name": "Unusual File Transfer Utility Launched",
-    "sha256": "322601a75d0aa9a716a772cdba3bcfc5f67adf7a07454e3ab0a69e5b810fa729",
+    "sha256": "b22313068d9b66259cfc59c5bdd36076a9d504ead65aeed21bbcd51d82eb3453",
     "type": "esql",
-    "version": 7
+    "version": 8
   },
   "8f242ffb-b191-4803-90ec-0f19942e17fd": {
     "rule_name": "Potential ADIDNS Poisoning via Wildcard Record Creation",
@@ -5496,11 +5586,17 @@
     "type": "eql",
     "version": 212
   },
+  "9050506c-df6d-4bdf-bc82-fcad0ef1e8c1": {
+    "rule_name": "GenAI Process Connection to Unusual Domain",
+    "sha256": "c1ab7f1687abc48558b4f79637b81b5b869d77dc8f67f3919111860f1c8be8dd",
+    "type": "new_terms",
+    "version": 1
+  },
   "9055ece6-2689-4224-a0e0-b04881e1f8ad": {
-    "rule_name": "AWS Deletion of RDS Instance or Cluster",
-    "sha256": "c0ced9e98431f4313c2ee2846e7d348cf0c0a199a2116036d425cee836f6e272",
+    "rule_name": "AWS RDS DB Instance or Cluster Deleted",
+    "sha256": "daa3efa31df9fdb6c67f3ae012d725a7d068c9bdce1c74ef1b3e81f6d256e2f2",
     "type": "query",
-    "version": 209
+    "version": 210
   },
   "907a26f5-3eb6-4338-a70e-6c375c1cde8a": {
     "rule_name": "Simple HTTP Web Server Creation",
@@ -5531,6 +5627,13 @@
     "sha256": "0410b9e68a9f6e6086c24a72980f090d2a0e09ff9961adc13895613c2bb15cad",
     "type": "query",
     "version": 100
+  },
+  "90e4ceab-79a5-4f8e-879b-513cac7fcad9": {
+    "min_stack_version": "9.2",
+    "rule_name": "Web Server Local File Inclusion Activity",
+    "sha256": "2968a905435900d8077fdb484d02fb587f23a7e21692856832366d9b3e5299de",
+    "type": "esql",
+    "version": 1
   },
   "90e5976d-ed8c-489a-a293-bfc57ff8ba89": {
     "rule_name": "Linux System Information Discovery via Getconf",
@@ -5666,9 +5769,9 @@
   },
   "94e734c0-2cda-11ef-84e1-f661ea17fbce": {
     "rule_name": "Multiple Okta User Authentication Events with Client Address",
-    "sha256": "68d3152a44bb3233dd6ea2a751dd806a05611119c6d8fdd35a2ce561f77008e8",
+    "sha256": "6505082b109534e2c4cd553d3f8cd9769f017009fdc339342458c8e7303c6c37",
     "type": "esql",
-    "version": 208
+    "version": 209
   },
   "9510add4-3392-11ed-bd01-f661ea17fbce": {
     "rule_name": "Google Workspace Custom Gmail Route Created or Modified",
@@ -5708,15 +5811,15 @@
   },
   "95b99adc-2cda-11ef-84e1-f661ea17fbce": {
     "rule_name": "Multiple Okta User Authentication Events with Same Device Token Hash",
-    "sha256": "cd1a5de507c25bd1a6334afde371785eb24794bfa0ef15228a7e405e5ae20e85",
+    "sha256": "cec23001ee500f02689c9c3895aafe7999e6f7b8609a50e286790cdf5b2f035d",
     "type": "esql",
-    "version": 208
+    "version": 209
   },
   "962a71ae-aac9-11ef-9348-f661ea17fbce": {
     "rule_name": "AWS STS AssumeRoot by Rare User and Member Account",
-    "sha256": "f1670dfd45e43ac5895b53ca679f177046d57bc693a881636a01300acff3ecbb",
+    "sha256": "21247d90931b191b5dfd6bbfe9ecf48ffd7f4bf01251fa9957234ed6dcfe002d",
     "type": "new_terms",
-    "version": 4
+    "version": 5
   },
   "9661ed8b-001c-40dc-a777-0983b7b0c91a": {
     "rule_name": "Deprecated - Sensitive Keys Or Passwords Searched For Inside A Container",
@@ -5762,9 +5865,9 @@
   },
   "97020e61-e591-4191-8a3b-2861a2b887cd": {
     "rule_name": "SeDebugPrivilege Enabled by a Suspicious Process",
-    "sha256": "721369ff74415e524db18c08b07e924d7fc2afb77dd0de54c0094712ccad6b66",
+    "sha256": "fbebd44525dceef0ede4b04ea6dc25697c9905dcbe4212fe2c02f891abcb80a4",
     "type": "eql",
-    "version": 112
+    "version": 113
   },
   "9705b458-689a-4ec6-afe8-b4648d090612": {
     "rule_name": "Unusual D-Bus Daemon Child Process",
@@ -5792,15 +5895,21 @@
   },
   "976b2391-413f-4a94-acb4-7911f3803346": {
     "rule_name": "Unusual Process Spawned from Web Server Parent",
-    "sha256": "5d1c7b45878bf61e1e80a4cbf813a5317d226ffd320a33975023057654262b7c",
+    "sha256": "86e6bb848041609668083d39fe198b49fdcba76b3f0cf20ff5996c0d9f52abeb",
     "type": "esql",
-    "version": 7
+    "version": 8
   },
   "979729e7-0c52-4c4c-b71e-88103304a79f": {
     "rule_name": "AWS IAM SAML Provider Updated",
     "sha256": "3da59f908da28d47fc7e0392ff86a6c7e5b5f38ea5199a890ec9e6ab106ed9b1",
     "type": "query",
     "version": 211
+  },
+  "9797d2c8-8ec9-48e6-a022-350cdfbf2d5e": {
+    "rule_name": "Potential HTTP Downgrade Attack",
+    "sha256": "d64e1c8bc491c3ab7d81decdba72bcc7ca4449d4cf350eafbb1182c1f64e1db9",
+    "type": "new_terms",
+    "version": 1
   },
   "97a8e584-fd3b-421f-9b9d-9c9d9e57e9d7": {
     "rule_name": "Potentially Successful Okta MFA Bombing via Push Notifications",
@@ -6122,15 +6231,15 @@
   },
   "9edd1804-83c7-4e48-b97d-c776b4c97564": {
     "rule_name": "PowerShell Obfuscation via Negative Index String Reversal",
-    "sha256": "42e0b978f0c0a9c4fbace71206d97c11ef387556c3bff09bae4c49934342707b",
+    "sha256": "822c0de9118119724451416b45ad5fa140b0390a2b1f490f1e14c0cc143c4255",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "9efb3f79-b77b-466a-9fa0-3645d22d1e7f": {
     "rule_name": "AWS RDS DB Instance Made Public",
-    "sha256": "6ab37a0c54d41e81d56ba27c0ad3dcac227dc7a8f82cd0f4324da20cc757080b",
+    "sha256": "e2349af7d08dca867f606f4f249e15878755f671b776eb1ca1a6fa17b882bdd4",
     "type": "eql",
-    "version": 5
+    "version": 6
   },
   "9f1c4ca3-44b5-481d-ba42-32dc215a2769": {
     "rule_name": "Potential Protocol Tunneling via EarthWorm",
@@ -6140,9 +6249,9 @@
   },
   "9f432a8b-9588-4550-838e-1f77285580d3": {
     "rule_name": "Dynamic IEX Reconstruction via Method String Access",
-    "sha256": "e0dfbc0391e8ca17a470e41a103402daeebdac84b5ea26e44496486e852136bf",
+    "sha256": "d7280805fb538234477a1300c607c95c54e987a900a4dfb387a3d4745d09459f",
     "type": "esql",
-    "version": 6
+    "version": 7
   },
   "9f962927-1a4f-45f3-a57b-287f2c7029c1": {
     "rule_name": "Potential Credential Access via DCSync",
@@ -6188,9 +6297,9 @@
   },
   "a1329140-8de3-4445-9f87-908fb6d824f4": {
     "rule_name": "File Deletion via Shred",
-    "sha256": "38364f20e36aaae29e165a3e0c9c3193d18addfb698d1ab56197ea8fd52725ff",
+    "sha256": "98412a3e65a49c2be4d293e3c9638980546eeb6a63f2ac2e43ea86e24cdb5fee",
     "type": "eql",
-    "version": 213
+    "version": 214
   },
   "a16612dd-b30e-4d41-86a0-ebe70974ec00": {
     "rule_name": "Potential LSASS Clone Creation via PssCaptureSnapShot",
@@ -6234,11 +6343,17 @@
     "type": "query",
     "version": 1
   },
+  "a1b2c3d4-e5f6-7890-abcd-ef1234567890": {
+    "rule_name": "GenAI Process Connection to Suspicious Top Level Domain",
+    "sha256": "c597b499c50eebdee9b57239e803b09995c9099b189f7337ed6bc1c272e861ea",
+    "type": "eql",
+    "version": 1
+  },
   "a1b7ffa4-bf80-4bf1-86ad-c3f4dc718b35": {
     "rule_name": "Web Server Suspicious User Agent Requests",
-    "sha256": "b48f9bf3f906fccb7f09ca13f172a840467544e471b7087fb0301961ef7337f1",
+    "sha256": "5f275451e77b0727d7ea9b743a35b64d3619ff9d2810961e8924216b93ca8fcc",
     "type": "esql",
-    "version": 1
+    "version": 2
   },
   "a1c2589e-0c8c-4ca8-9eb6-f83c4bbdbe8f": {
     "rule_name": "Linux Group Creation",
@@ -6300,6 +6415,13 @@
     "type": "eql",
     "version": 4
   },
+  "a4b740e4-be17-4048-9aa4-1e6f42b455b1": {
+    "min_stack_version": "9.3",
+    "rule_name": "Spike in GCP Audit Failed Messages",
+    "sha256": "640606acf483065052865e9a6e801d491b8afb375423dfb06058d87b0b54b602",
+    "type": "machine_learning",
+    "version": 1
+  },
   "a4c7473a-5cb4-4bc1-9d06-e4a75adbc494": {
     "rule_name": "Windows Registry File Creation in SMB Share",
     "sha256": "0597bc8c77ba3bc0acc1e91426b0c1d17bd1799128e2d8549593007939740fbc",
@@ -6359,6 +6481,12 @@
     "sha256": "c26ba77509e14edd7a244af9e057ae5c8ddde527759809d383616b2ad6d1dbb9",
     "type": "eql",
     "version": 317
+  },
+  "a640ef5b-e1da-4b17-8391-468fdbd1b517": {
+    "rule_name": "Execution via GitHub Actions Runner",
+    "sha256": "5c2e02372424c7523c482923663eaedd7d5dd64f7f91059d807cbd86fd1ab716",
+    "type": "eql",
+    "version": 1
   },
   "a6788d4b-b241-4bf0-8986-a3b4315c5b70": {
     "rule_name": "AWS S3 Bucket Server Access Logging Disabled",
@@ -6432,6 +6560,12 @@
     "type": "new_terms",
     "version": 1
   },
+  "a8b3e2f0-8c7d-11ef-b4c6-f661ea17fbcd": {
+    "rule_name": "AWS EC2 LOLBin Execution via SSM SendCommand",
+    "sha256": "cd7321baa685c0b8fdee3998ff993ac2f4f5761124d7f2e78e2c404978211ab3",
+    "type": "esql",
+    "version": 1
+  },
   "a8d35ca0-ad8d-48a9-9f6c-553622dca61a": {
     "rule_name": "High Variance in RDP Session Duration",
     "sha256": "ab11651cb3fb46c70c3fdbf4479abc32ea2fb7d096747443517a1d135615d72c",
@@ -6443,6 +6577,12 @@
     "sha256": "c1754fb24018b0b1ad18dda900585a848ef023365ffdb417c9ee87a5e201ac4c",
     "type": "machine_learning",
     "version": 3
+  },
+  "a8f7e9d4-3b2c-4d5e-8f1a-6c9b0e2d4a7f": {
+    "rule_name": "React2Shell (CVE-2025-55182) Exploitation Attempt",
+    "sha256": "a60f77fb20413deff742fb48c1ef902bdd8a712ed6eacc619eceaf824f93bfbe",
+    "type": "eql",
+    "version": 1
   },
   "a9198571-b135-4a76-b055-e3e5a476fd83": {
     "rule_name": "Hex Encoding/Decoding Activity",
@@ -6518,9 +6658,9 @@
   },
   "ab25369e-ea5e-46f1-9cd5-478a0a4a131a": {
     "rule_name": "Multiple Elastic Defend Alerts by Agent",
-    "sha256": "242ee3fae70ef07f142db55fd2fc4688fb001c1d263753660e29cb815de22402",
+    "sha256": "ca121c6714b6416e730ad49c7313f25c4b680f8b38b6332271edb1a8590278c9",
     "type": "esql",
-    "version": 1
+    "version": 2
   },
   "ab75c24b-2502-43a0-bf7c-e60e662c811e": {
     "rule_name": "Remote Execution via File Shares",
@@ -6530,9 +6670,9 @@
   },
   "ab8f074c-5565-4bc4-991c-d49770e19fc9": {
     "rule_name": "AWS S3 Object Encryption Using External KMS Key",
-    "sha256": "958773d8daef17b9524d9777dd4b3cf3630c13699cceb373bab52de8855ddccf",
+    "sha256": "d56a2e5202ea4a278451d94bac7c4307125dd5a93f8a755f83112b7a83e7dade",
     "type": "esql",
-    "version": 7
+    "version": 8
   },
   "abae61a8-c560-4dbd-acca-1e1438bff36b": {
     "rule_name": "Unusual Windows Process Calling the Metadata Service",
@@ -6572,9 +6712,9 @@
   },
   "ac706eae-d5ec-4b14-b4fd-e8ba8086f0e1": {
     "rule_name": "Unusual AWS Command for a User",
-    "sha256": "22dee7a0dba4259dae807f0636fa682ffa5c2f3fa4a3025aefea153263a89744",
+    "sha256": "1bb48c457ffaa6213c29fb112617a61f4513cf5ed3fe8ae984d050f46f0e2a14",
     "type": "machine_learning",
-    "version": 211
+    "version": 212
   },
   "ac8805f6-1e08-406c-962e-3937057fa86f": {
     "rule_name": "Potential Protocol Tunneling via Chisel Server",
@@ -6638,9 +6778,9 @@
   },
   "ad66db2e-1cc7-4a2c-8fa5-5f3895e44a18": {
     "rule_name": "Decline in host-based traffic",
-    "sha256": "2437e732072bc33cbbc5ba0bd9ea39c6556f00672e79ac4e3f3bdc54398e324f",
+    "sha256": "6fc5bbba4f289f6433e148acbd5a3f03e6a19a814418a883f6f068b46e73beae",
     "type": "machine_learning",
-    "version": 3
+    "version": 4
   },
   "ad84d445-b1ce-4377-82d9-7c633f28bf9a": {
     "rule_name": "Suspicious Portable Executable Encoded in Powershell Script",
@@ -6677,6 +6817,12 @@
     "sha256": "335102af08ae42c73773c0a4bf008d375f9f7e13ced2cd5b35d8c74d71618f43",
     "type": "eql",
     "version": 109
+  },
+  "ae3e9625-89ad-4fc3-a7bf-fced5e64f01b": {
+    "rule_name": "Suspicious React Server Child Process",
+    "sha256": "63da6577a77be71f981614af5071fdbb74773f0caf8dde1e91d6199729b238f4",
+    "type": "eql",
+    "version": 1
   },
   "ae8a142c-6a1d-4918-bea7-0b617e99ecfa": {
     "rule_name": "Suspicious Execution via Microsoft Office Add-Ins",
@@ -6746,9 +6892,9 @@
   },
   "b0450411-46e5-46d2-9b35-8b5dd9ba763e": {
     "rule_name": "Potential Denial of Azure OpenAI ML Service",
-    "sha256": "5a86479548e1f4f7144d5006bfc38aad7c46f5d62ab025a804f899a4572ee5cf",
+    "sha256": "c1ef34302dc9874b98d408675be77d3bbd72765a0566a6b19735cd3f44abfcf7",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "b0638186-4f12-48ac-83d2-47e686d08e82": {
     "rule_name": "Netsh Helper DLL",
@@ -6764,9 +6910,9 @@
   },
   "b0c98cfb-0745-4513-b6f9-08dddb033490": {
     "rule_name": "Potential Dynamic IEX Reconstruction via Environment Variables",
-    "sha256": "7d06dd74453291b00725d654daea341f2ca17b2a79e2b8712d00507005156728",
+    "sha256": "6171c34424356a61837a68b3eccb23be6844d7b2c3ad3a31a80be9e6fa4ddf23",
     "type": "esql",
-    "version": 5
+    "version": 6
   },
   "b11116fd-023c-4718-aeb8-fa9d283fc53b": {
     "rule_name": "Kubeconfig File Creation or Modification",
@@ -6782,9 +6928,9 @@
   },
   "b1773d05-f349-45fb-9850-287b8f92f02d": {
     "rule_name": "Potential Abuse of Resources by High Token Count and Large Response Sizes",
-    "sha256": "9e418c454131da6894a78ddf5a4953ab68e81617b619ef5fc4f5b413511a3efb",
+    "sha256": "fe2dd63b825311ec149f4abbb7a2b4ac98755b8186de5519e40c46a42669e1c2",
     "type": "esql",
-    "version": 6
+    "version": 7
   },
   "b1c14366-f4f8-49a0-bcbb-51d2de8b0bb8": {
     "rule_name": "Potential Persistence via Cron Job",
@@ -6800,9 +6946,9 @@
   },
   "b240bfb8-26b7-4e5e-924e-218144a3fa71": {
     "rule_name": "Spike in Network Traffic",
-    "sha256": "5dbb9eed1f0e10b192dc7c2f72a009a668a5dba1bb5dc8fa0c86326ff2bd145f",
+    "sha256": "6f5749f79295a76dfb8b39ad7c7cd307890d4e6907b1978e040776de3c977e5b",
     "type": "machine_learning",
-    "version": 107
+    "version": 108
   },
   "b25a7df2-120a-4db2-bd3f-3e4b86b24bee": {
     "rule_name": "Remote File Copy via TeamViewer",
@@ -6828,6 +6974,18 @@
     "type": "threshold",
     "version": 1
   },
+  "b2c3d4e5-f6a7-8901-bcde-f123456789ab": {
+    "rule_name": "GenAI Process Compiling or Generating Executables",
+    "sha256": "1b44e3cddeb6ca2f774015e8420483b4590ca117d2b4e014e2a651e58d0075d6",
+    "type": "eql",
+    "version": 1
+  },
+  "b2c3d4e5-f6a7-8901-bcde-f23456789012": {
+    "rule_name": "GenAI or MCP Server Child Process Execution",
+    "sha256": "223b956a529959c9e18df158fc49c4954749b3b139a4e0e2c98d9056fe6cb7e4",
+    "type": "eql",
+    "version": 1
+  },
   "b347b919-665f-4aac-b9e8-68369bf2340c": {
     "rule_name": "Unusual Linux Username",
     "sha256": "ebac0be3cc98660cdc22804d5fb5347f782deed7f06851e8d9774d2b80988cf1",
@@ -6836,9 +6994,9 @@
   },
   "b36c99af-b944-4509-a523-7e0fad275be1": {
     "rule_name": "AWS RDS Snapshot Deleted",
-    "sha256": "ade98e7953750dbc98194e18eb9a5c0b009482bdd4291ee0afa7c090646fd8a3",
+    "sha256": "0608995dc9f8ecd5e421b6699b410ddffada935f84fcc24fdb93bc0b20716d8a",
     "type": "eql",
-    "version": 5
+    "version": 6
   },
   "b41a13c6-ba45-4bab-a534-df53d0cfed6a": {
     "rule_name": "Suspicious Endpoint Security Parent Process",
@@ -7038,11 +7196,17 @@
     "type": "eql",
     "version": 105
   },
+  "b9c8d7e6-5a4f-3c2b-1d0e-9f8a7b6c5d4e": {
+    "rule_name": "Anomalous React Server Components Flight Data Patterns",
+    "sha256": "0c4d821949f83cc7229d9d2a9c117db1c8e639e5e03279e9ec182569ea1e7232",
+    "type": "eql",
+    "version": 1
+  },
   "ba342eb2-583c-439f-b04d-1fdd7c1417cc": {
     "rule_name": "Unusual Windows Network Activity",
-    "sha256": "8d8e53fbf2a2f3163dfc630866851d9212df2d9741e38c81cf5846fa0e60250a",
+    "sha256": "8add33888ce9849b510c0d0b80fd76797ddc082ac5700758b7b90c58c80099c1",
     "type": "machine_learning",
-    "version": 209
+    "version": 210
   },
   "ba5a0b0c-b477-4729-a3dc-0147c2049cf1": {
     "rule_name": "AWS STS Role Chaining",
@@ -7232,9 +7396,9 @@
   },
   "bf1073bf-ce26-4607-b405-ba1ed8e9e204": {
     "rule_name": "AWS RDS DB Instance Restored",
-    "sha256": "9eafea55bf73d9efa7281b8e04b71b2411d67ceaa0bd491ce8b7ff8716e4469e",
-    "type": "eql",
-    "version": 210
+    "sha256": "5194de7967cb4987fc5b077de80c87f720fc241fd5484fbf074d0f3ba2b9db2c",
+    "type": "query",
+    "version": 211
   },
   "bf8c007c-7dee-4842-8e9a-ee534c09d205": {
     "rule_name": "System Owner/User Discovery Linux",
@@ -7253,6 +7417,12 @@
     "sha256": "40a67d2ab241cbd5ebfe99c7aa5d275edd57de9dfe029fe46a3b3fc90c202e26",
     "type": "eql",
     "version": 218
+  },
+  "c0136397-f82a-45e5-9b9f-a3651d77e21a": {
+    "rule_name": "GenAI Process Accessing Sensitive Files",
+    "sha256": "d6c0c41cfb020fd17045a5aad1f7f9fe737fbf0b70b796e1c9e28fb6dde7697c",
+    "type": "eql",
+    "version": 1
   },
   "c02c8b9f-5e1d-463c-a1b0-04edcdfe1a3d": {
     "rule_name": "Potential Privacy Control Bypass via Localhost Secure Copy",
@@ -7274,9 +7444,9 @@
   },
   "c07f7898-5dc3-11f0-9f27-f661ea17fbcd": {
     "rule_name": "Excessive Secret or Key Retrieval from Azure Key Vault",
-    "sha256": "2e6c5a242cd8d1445fad39d2d1f00850d5d419b1081dd65097dacedc7854a35e",
+    "sha256": "3042d4bb8ab097ead4fa72001cd04d2743f87611580ff1c9b8bcb407509522ff",
     "type": "esql",
-    "version": 5
+    "version": 6
   },
   "c0b9dc99-c696-4779-b086-0d37dc2b3778": {
     "rule_name": "Memory Dump File with Unusual Extension",
@@ -7301,6 +7471,13 @@
     "sha256": "7d9cc9a951cd23d851d94e65b88177c5dbecc7e760a584e7e9901538e4d48ba5",
     "type": "eql",
     "version": 11
+  },
+  "c17ffbf9-595a-4c0b-a126-aacedb6dd179": {
+    "min_stack_version": "9.3",
+    "rule_name": "Rare Azure Activity Logs Event Failures",
+    "sha256": "150f036e519fe735e54c93387c5b59d2b57745ecad78f38e3f4cf98ef3d32b9f",
+    "type": "machine_learning",
+    "version": 1
   },
   "c1812764-0788-470f-8e74-eb4a14d47573": {
     "rule_name": "AWS EC2 Full Network Packet Capture Detected",
@@ -7410,6 +7587,12 @@
     "type": "new_terms",
     "version": 1
   },
+  "c3d4e5f6-a7b8-9012-cdef-123456789abc": {
+    "rule_name": "GenAI Process Performing Encoding/Chunking Prior to Network Activity",
+    "sha256": "cdb4bf583f1114ff298aa113567237a8727f03bf3675eca5da4ec615db63f688",
+    "type": "eql",
+    "version": 1
+  },
   "c3f5e1d8-910e-43b4-8d44-d748e498ca86": {
     "rule_name": "Potential JAVA/JNDI Exploitation Attempt",
     "sha256": "c353bf8d28c1c9cca5662d7a7a69e0a7229505982746bd0b0be3276fbda1444b",
@@ -7442,15 +7625,15 @@
   },
   "c562a800-cf97-464e-9d6f-84db91e86e10": {
     "rule_name": "Elastic Defend and Email Alerts Correlation",
-    "sha256": "1cfe8911634cb5767959513e92b9acef45c014d44143bbc8848ed72e3d65b582",
+    "sha256": "bf5eab1ff81c0abb46ab57dddc0ce10e3dfd89781e7be402f3a2b74a2a709124",
     "type": "esql",
-    "version": 1
+    "version": 2
   },
   "c5637438-e32d-4bb3-bc13-bd7932b3289f": {
     "rule_name": "Unusual Base64 Encoding/Decoding Activity",
-    "sha256": "2eef1198b4775ccd5423bd2bedf9def5f0e0c0b4a137e9e3331dc2576a3de3f2",
+    "sha256": "dd7c4d836b8b90c5b5107cc4889992f11f3c126896601722f08d18234919bd58",
     "type": "esql",
-    "version": 6
+    "version": 7
   },
   "c5677997-f75b-4cda-b830-a75920514096": {
     "rule_name": "Service Path Modification via sc.exe",
@@ -7469,6 +7652,12 @@
     "sha256": "37a8cf43dbd537aa0901deeae2eaf9f766dfce63e61823daae640cd566c4dbb8",
     "type": "query",
     "version": 107
+  },
+  "c595363f-52a6-49e1-9257-0e08ae043dbd": {
+    "rule_name": "Pod or Container Creation with Suspicious Command-Line",
+    "sha256": "c58e1e35e7eca502a03db4914d7d48c4dc79d1f6420fa2c22eb46641c6d19f80",
+    "type": "eql",
+    "version": 1
   },
   "c5c9f591-d111-4cf8-baec-c26a39bc31ef": {
     "rule_name": "Potential Credential Access via Renamed COM+ Services DLL",
@@ -7526,9 +7715,9 @@
   },
   "c6b40f4c-c6a9-434e-adb8-989b0d06d005": {
     "rule_name": "Suspicious Kerberos Authentication Ticket Request",
-    "sha256": "e23ea6934805893d0a762d92c016466df1e095e89990ac13b0fd20adf6fcf712",
+    "sha256": "3e8bbd5ab3f47272a2294246d2e869c3a340607be602eb6af2662418340cb228",
     "type": "eql",
-    "version": 1
+    "version": 2
   },
   "c70d9f0d-8cb6-4cfc-85df-a95c1ccf4eab": {
     "rule_name": "AWS IAM API Calls via Temporary Session Tokens",
@@ -7586,9 +7775,9 @@
   },
   "c7db5533-ca2a-41f6-a8b0-ee98abe0f573": {
     "rule_name": "Spike in Network Traffic To a Country",
-    "sha256": "e11202b80cd04fed8b343ef174236d78a6d5ea6fbbd37a73fb8a9ddc666d4548",
+    "sha256": "0e93c7c9d8c379f5113f5da64c80c41a4baa81ef5c9f06da338f591b12f797b6",
     "type": "machine_learning",
-    "version": 108
+    "version": 109
   },
   "c81cefcb-82b9-4408-a533-3c3df549e62d": {
     "rule_name": "Persistence via Docker Shortcut Modification",
@@ -7724,9 +7913,9 @@
   },
   "cc382a2e-7e52-11ee-9aac-f661ea17fbcd": {
     "rule_name": "Multiple Device Token Hashes for Single Okta Session",
-    "sha256": "8e7204daa15aa64acf5ab9e352b8e028ba759ad98fbff579bc815a9848e31909",
+    "sha256": "92a2b265f8333817d48a884994a53bfa4d71af4c10f7735ee3308a2767e5154a",
     "type": "esql",
-    "version": 309
+    "version": 310
   },
   "cc653d77-ddd2-45b1-9197-c75ad19df66c": {
     "rule_name": "Potential Data Exfiltration Activity to an Unusual IP Address",
@@ -7754,9 +7943,9 @@
   },
   "cca64114-fb8b-11ef-86e2-f661ea17fbce": {
     "rule_name": "Microsoft Entra ID Sign-In Brute Force Activity",
-    "sha256": "c35589d8fa91f42b8fb5b1eea51ed483b141b2e2be94f3cb9d54764dac4e3a57",
+    "sha256": "a833679669c3857a3d6d6d02eacf8266f01bdb11bdf707600e18c3dd4a2e54c4",
     "type": "esql",
-    "version": 6
+    "version": 7
   },
   "ccc55af4-9882-4c67-87b4-449a7ae8079c": {
     "rule_name": "Potential Process Herpaderping Attempt",
@@ -7808,9 +7997,9 @@
   },
   "cde1bafa-9f01-4f43-a872-605b678968b0": {
     "rule_name": "Potential PowerShell HackTool Script by Function Names",
-    "sha256": "c5d8f7341c8aa94026664e5ad58319bfe7157e03a65de4182baa55387cc32856",
+    "sha256": "6a3a41432334b7098df61a7139dca98767324dea23216d6d9fd8e10be74d51aa",
     "type": "query",
-    "version": 218
+    "version": 219
   },
   "cdf1a39b-1ca5-4e2a-9739-17fc4d026029": {
     "rule_name": "Shadow File Modification by Unusual Process",
@@ -7823,6 +8012,13 @@
     "sha256": "4bbc73f19f416d5b74ee9c40f0227d8cc4bcc267f363487cbf60f50aefec9c26",
     "type": "new_terms",
     "version": 206
+  },
+  "ce08cdb8-e6cb-46bb-a7cc-16d17547323f": {
+    "min_stack_version": "9.3",
+    "rule_name": "Unusual City for an Azure Activity Logs Event",
+    "sha256": "5f64f06e28b59f2216617f564d2ff2522891f84e828106b53e47c08a8ce4a519",
+    "type": "machine_learning",
+    "version": 1
   },
   "ce4a32e5-32aa-47e6-80da-ced6d234387d": {
     "rule_name": "GRUB Configuration File Creation",
@@ -7944,6 +8140,12 @@
     "type": "eql",
     "version": 1
   },
+  "d1f310cb-5921-4d37-bbdf-cfdab7a6df9c": {
+    "rule_name": "Privileged Container Creation with Host Directory Mount",
+    "sha256": "16394afb9f2c78168b53837f4bd19e6929e026be8f08c8291b17ea82e16d97ba",
+    "type": "eql",
+    "version": 1
+  },
   "d2053495-8fe7-4168-b3df-dad844046be3": {
     "rule_name": "PPTP (Point to Point Tunneling Protocol) Activity",
     "sha256": "07e21a98e0a2f05e6d9191ef82577f66f1c1ed1a2f93cd54771faa83ee6ceda6",
@@ -7994,9 +8196,9 @@
   },
   "d43f2b43-02a1-4219-8ce9-10929a32a618": {
     "rule_name": "Potential PowerShell Obfuscation via Backtick-Escaped Variable Expansion",
-    "sha256": "5e0286288a46daccf7f9d563112ed05545bab69583b2aa32b10852647b4ef5d9",
+    "sha256": "8bac1a0926db36d84a8d9f11bd797f2f98a87b459161a4dd53c4e69c719bce09",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "d461fac0-43e8-49e2-85ea-3a58fe120b4f": {
     "rule_name": "Shell Execution via Apple Scripting",
@@ -8150,9 +8352,9 @@
   },
   "d788313c-9e0b-4c5a-8c4b-c3f05a47d5a8": {
     "rule_name": "Python Site or User Customize File Creation",
-    "sha256": "4b3a053c8caeca2a1bd34ac1c472b5a915029448a8d37e95ddec0e407343489a",
+    "sha256": "e870753b28c4b9bf32983bd2fb5bcfafae38f902273f04300b5f3354570c37ec",
     "type": "eql",
-    "version": 3
+    "version": 4
   },
   "d79c4b2a-6134-4edd-86e6-564a92a933f9": {
     "rule_name": "Azure Blob Permissions Modification",
@@ -8216,9 +8418,9 @@
   },
   "d9af2479-ad13-4471-a312-f586517f1243": {
     "rule_name": "Curl or Wget Spawned via Node.js",
-    "sha256": "7d25f249eb1c37f0387a50af1d770254a7a935c20d9520f05e795438d486f719",
+    "sha256": "e9b7a7e641e61102321f9e774ae3df5054f9ef8ff40b6d2376f243c1389aca11",
     "type": "eql",
-    "version": 2
+    "version": 3
   },
   "d9faf1ba-a216-4c29-b8e0-a05a9d14b027": {
     "rule_name": "Sensitive Files Compression Inside A Container",
@@ -8336,15 +8538,22 @@
   },
   "dca28dee-c999-400f-b640-50a081cc0fd1": {
     "rule_name": "Unusual Country For an AWS Command",
-    "sha256": "1deeb5c156dc053b7a9d4898334185233e3078a2d6669323b32bc24dd35eaeb1",
+    "sha256": "5fcc8e1b8ffda2633c5e84605dbccd3b4fa19f61cb6746ba6f2e9673df63aa6f",
     "type": "machine_learning",
-    "version": 211
+    "version": 212
   },
   "dca6b4b0-ae70-44eb-bb7a-ce6db502ee78": {
     "rule_name": "Suspicious Execution from INET Cache",
     "sha256": "3e7ff7380de734a0b98762b61a6c34d06b5e6209fa1b42b89385a27f3e709e1e",
     "type": "eql",
     "version": 210
+  },
+  "dcbd07f8-bd6e-4bb4-ac5d-cec1927ea88f": {
+    "min_stack_version": "9.3",
+    "rule_name": "Unusual Country For a GCP Event",
+    "sha256": "5453995a966b42c545508b8d3aa57fd84891a46c9ac167eb5e4b36d2c3f4fe3b",
+    "type": "machine_learning",
+    "version": 1
   },
   "dd34b062-b9e3-4a6b-8c0c-6c8ca6dd450e": {
     "rule_name": "Attempt to Install Kali Linux via WSL",
@@ -8390,9 +8599,9 @@
   },
   "de67f85e-2d43-11f0-b8c9-f661ea17fbcc": {
     "rule_name": "Multiple Microsoft 365 User Account Lockouts in Short Time Window",
-    "sha256": "f775827c15a307f4bfc8c19ca60fc0a488265a1055f37d8dbdf66fddcedc897d",
+    "sha256": "8ea7eb9a447ba7324e7fc5acb44be7236513463e0b52bf36585e33ccef606f85",
     "type": "esql",
-    "version": 5
+    "version": 6
   },
   "de9bd7e0-49e9-4e92-a64d-53ade2e66af1": {
     "rule_name": "Unusual Child Process from a System Virtual Process",
@@ -8416,6 +8625,12 @@
     "rule_name": "AWS EC2 Export Task",
     "sha256": "04e0ea59740f3bbe3725c404643d4a307fc746c79a4b4a13bab468c4e51a1d6f",
     "type": "query",
+    "version": 1
+  },
+  "df0553c8-2296-45ef-b4dc-3b88c4c130a7": {
+    "rule_name": "Tampering with RUNNER_TRACKING_ID in GitHub Actions Runners",
+    "sha256": "1911bad236dfa90b27f167aac3ae24c7f49c5a1fc583ab500bff60f013b34dc6",
+    "type": "eql",
     "version": 1
   },
   "df0fd41e-5590-4965-ad5e-cd079ec22fa9": {
@@ -8612,9 +8827,9 @@
   },
   "e3bd85e9-7aff-46eb-b60e-20dfc9020d98": {
     "rule_name": "Microsoft Entra ID Concurrent Sign-Ins with Suspicious Properties",
-    "sha256": "30ce8022e8e62dfa59bb2e69c66cf2b49cec6cce4c5274e3536ef7c0062491d8",
+    "sha256": "cf796a0f6dfa5c9f8110eb6d749fa7772622db9cc71898722806f98c6edd84be",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "e3c27562-709a-42bd-82f2-3ed926cced19": {
     "rule_name": "AWS Route53 private hosted zone associated with a VPC",
@@ -8803,10 +9018,10 @@
     "version": 2
   },
   "e88d1fe9-b2f4-48d4-bace-a026dc745d4b": {
-    "rule_name": "Host Files System Changes via Windows Subsystem for Linux",
-    "sha256": "570f50040e4c5830eda8d9d4d63e5472233a96b0aac24dcd32a887779944a110",
+    "rule_name": "Host File System Changes via Windows Subsystem for Linux",
+    "sha256": "fc04a26c8bd9015b4cca4f17b20d8f18ac3eacb335a947d8793d0016b6ebbf0f",
     "type": "eql",
-    "version": 111
+    "version": 112
   },
   "e8c9ff14-fd1e-11ee-a0df-f661ea17fbce": {
     "rule_name": "AWS S3 Bucket Policy Added to Share with External Account",
@@ -8828,9 +9043,9 @@
   },
   "e903ce9a-5ce6-4246-bb14-75ed3ec2edf5": {
     "rule_name": "Potential PowerShell Obfuscation via String Reordering",
-    "sha256": "d2f95295421397874a9612a08627ff834430be52aea03bf2db77a9b641da195c",
+    "sha256": "1a67044887d674eb2a38e83ee77801385db990e72d052e5420b0bfa9b81d8088",
     "type": "esql",
-    "version": 7
+    "version": 8
   },
   "e90ee3af-45fc-432e-a850-4a58cf14a457": {
     "rule_name": "High Number of Okta User Password Reset or Unlock Attempts",
@@ -8893,16 +9108,16 @@
     "version": 110
   },
   "ea248a02-bc47-4043-8e94-2885b19b2636": {
-    "rule_name": "AWS IAM Brute Force of Assume Role Policy",
-    "sha256": "cc2ff222226e52b4e5328e06189bf9e8e8888b2ffce285254bfe1ad99938251a",
+    "rule_name": "AWS IAM Principal Enumeration via UpdateAssumeRolePolicy",
+    "sha256": "f14b002eebcbbb555471d258b2d7843d5ea29c1f6968943863f83e6cae46568c",
     "type": "threshold",
-    "version": 212
+    "version": 213
   },
   "eaa77d63-9679-4ce3-be25-3ba8b795e5fa": {
     "rule_name": "Spike in Firewall Denies",
-    "sha256": "64375b8122d8cb9d91710468df616731c22eafab3c95b0ae6238cd55db970ddc",
+    "sha256": "1682a0c3be0d13c2d886046e969759c83cba4312382efe8fca8f9be342ef8e86",
     "type": "machine_learning",
-    "version": 107
+    "version": 108
   },
   "eaef8a35-12e0-4ac0-bc14-81c72b6bd27c": {
     "rule_name": "Suspicious APT Package Manager Network Connection",
@@ -9044,9 +9259,9 @@
   },
   "ee5300a7-7e31-4a72-a258-250abb8b3aa1": {
     "rule_name": "Unusual Print Spooler Child Process",
-    "sha256": "94421dbaf4b818996b818ce7add2fff5f19b3361bc746e84bf7b001c6f22a107",
+    "sha256": "54e542eced060164ea48e1acd0e2dad60a507e92b22080e79fefa1717cdb3600",
     "type": "eql",
-    "version": 214
+    "version": 215
   },
   "ee53d67a-5f0c-423c-a53c-8084ae562b5c": {
     "rule_name": "Shortcut File Written or Modified on Startup Folder",
@@ -9146,9 +9361,9 @@
   },
   "f0cc239b-67fa-46fc-89d4-f861753a40f5": {
     "rule_name": "Microsoft 365 or Entra ID Sign-in from a Suspicious Source",
-    "sha256": "b6ae280b291aac4deec3e9f27ab73ae0afa52471e1cb8b5dd6e7874d706274e5",
+    "sha256": "1c82a2568d10fea4868e5657b9934f3be6431843d1a284c5dde1fff807ea002e",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "f0dbff4c-1aa7-4458-9ed5-ada472f64970": {
     "rule_name": "dMSA Account Creation by an Unusual User",
@@ -9182,9 +9397,16 @@
   },
   "f2015527-7c46-4bb9-80db-051657ddfb69": {
     "rule_name": "AWS RDS DB Instance or Cluster Password Modified",
-    "sha256": "d3de58ca35a9dc6d480cb9bef167e9065d10fd64c76dd25369636c977eb978bf",
+    "sha256": "8a13d49d9f7ae5db75943a19a2ddd120f65594d8ea51715e52c0c2e122f7ac52",
     "type": "eql",
-    "version": 5
+    "version": 6
+  },
+  "f20d1782-e783-4ed0-a0c4-946899a98a7c": {
+    "min_stack_version": "9.3",
+    "rule_name": "Unusual City For a GCP Event",
+    "sha256": "4234c7b13928ef16b739961abee68fe89b024428f43b5cd08e09ffce6d53e103",
+    "type": "machine_learning",
+    "version": 1
   },
   "f243fe39-83a4-46f3-a3b6-707557a102df": {
     "rule_name": "Service Path Modification",
@@ -9212,9 +9434,9 @@
   },
   "f2c653b7-7daf-4774-86f2-34cdbd1fc528": {
     "rule_name": "AWS Bedrock Invocations without Guardrails Detected by a Single User Over a Session",
-    "sha256": "77898c5469949cfb73f4b6a3d6d0e02bceeb8e65bff93cf6a24f6a88223ffadf",
+    "sha256": "6ff7d13565c3fa8aaf9cead54500dbc3dd13e124a87f2b6c7eaf2d0d528cd55f",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "f2c7b914-eda3-40c2-96ac-d23ef91776ca": {
     "rule_name": "SIP Provider Modification",
@@ -9266,9 +9488,9 @@
   },
   "f38633f4-3b31-4c80-b13d-e77c70ce8254": {
     "rule_name": "Potential PowerShell Obfuscation via Reverse Keywords",
-    "sha256": "0c9ca06dc06f2ec65026cb7a0472081a2aece5bb59900ad0a99e1306ca842b25",
+    "sha256": "636a9510034d9b9be87b651ce5f79d5864cc89131caa744f67bc75239a548daa",
     "type": "esql",
-    "version": 5
+    "version": 6
   },
   "f391d3fd-219b-42a3-9ba9-2f66eb0155aa": {
     "rule_name": "Kill Command Execution",
@@ -9278,9 +9500,9 @@
   },
   "f3ac6734-7e52-4a0d-90b7-6847bf4308f2": {
     "rule_name": "Web Server Potential Command Injection Request",
-    "sha256": "e550ce52f82ca0148dbb9cd09300cc2bf87d55fcb223f6969d7b86782f1445b9",
+    "sha256": "0d64249190702365c3590ea42477850320f7bc62aa578fe256001611277abe72",
     "type": "esql",
-    "version": 1
+    "version": 2
   },
   "f3e22c8b-ea47-45d1-b502-b57b6de950b3": {
     "rule_name": "Threat Intel URL Indicator Match",
@@ -9326,9 +9548,9 @@
   },
   "f4c2515a-18bb-47ce-a768-1dc4e7b0fe6c": {
     "rule_name": "AWS Bedrock Guardrails Detected Multiple Policy Violations Within a Single Blocked Request",
-    "sha256": "32f734a7ca7c0ede2de12cee44877eff6f0c6b1fd835696e64e13f6376b52917",
+    "sha256": "a3488ceb0564d887f46fe146dad6bca90a9eb402a00ee3b6b223a4b68183c68a",
     "type": "esql",
-    "version": 6
+    "version": 7
   },
   "f4d1c0ac-aedb-4063-9fa6-cc651eb5e6ee": {
     "rule_name": "DPKG Package Installed by Unusual Parent Process",
@@ -9416,9 +9638,9 @@
   },
   "f6652fb5-cd8e-499c-8311-2ce2bb6cac62": {
     "rule_name": "AWS RDS DB Instance or Cluster Deletion Protection Disabled",
-    "sha256": "5ff52316c612a32b456c1d8cabd1f45f2752e52eb36c4c2d1950f4f50750c57f",
+    "sha256": "54e022f155300bd083ae3a1d4abb3d750bfbfa0d9764c4b939fc2e266a475c85",
     "type": "eql",
-    "version": 5
+    "version": 6
   },
   "f675872f-6d85-40a3-b502-c0d2ef101e92": {
     "rule_name": "Delete Volume USN Journal with Fsutil",
@@ -9440,9 +9662,9 @@
   },
   "f6d8c743-0916-4483-8333-3c6f107e0caa": {
     "rule_name": "Potential PowerShell Obfuscation via String Concatenation",
-    "sha256": "89bd628a65d8efba57ca5a4279fdbb8a3dbe414ee8bab5ccc726f2392189c425",
+    "sha256": "c7a22dd3721a57809971f6a064b7f5d83155133cc59d16f7512aa4ced41bc9e9",
     "type": "esql",
-    "version": 5
+    "version": 6
   },
   "f701be14-0a36-4e9a-a851-b3e20ae55f09": {
     "rule_name": "Potential Kerberos Coercion via DNS-Based SPN Spoofing",
@@ -9470,9 +9692,9 @@
   },
   "f770ce79-05fd-4d74-9866-1c5d66c9b34b": {
     "rule_name": "Potential Malicious PowerShell Based on Alert Correlation",
-    "sha256": "3bb1b5457415afbc01790c12c23c72752d168bf76ed767c4e9eaae3a240e3f3a",
+    "sha256": "4ddf7e935836ae79df33c7406f3e6ca7225d0c4e4f77992dd7ce9913fc461000",
     "type": "esql",
-    "version": 3
+    "version": 4
   },
   "f772ec8a-e182-483c-91d2-72058f76a44c": {
     "rule_name": "AWS CloudWatch Alarm Deletion",
@@ -9552,6 +9774,12 @@
     "type": "eql",
     "version": 105
   },
+  "f92171ed-a4d3-4baa-98f9-4df1652cb11b": {
+    "rule_name": "Potential Secret Scanning via Gitleaks",
+    "sha256": "33e0146feb9de871b5ada55b0af64c3223f0c8f03ad5434f251ab66a85956093",
+    "type": "eql",
+    "version": 1
+  },
   "f94e898e-94f1-4545-8923-03e4b2866211": {
     "rule_name": "First Occurrence of Personal Access Token (PAT) Use For a GitHub User",
     "sha256": "220ffd3b00b10fff5b9c9d3ea8cee1554fc9fa9e03cd8b6af5c2f5657604728b",
@@ -9572,15 +9800,15 @@
   },
   "f97504ac-1053-498f-aeaa-c6d01e76b379": {
     "rule_name": "Browser Extension Install",
-    "sha256": "576be150607dc9afd8fedcd60b859916ff133c1200bc665c1b3be75c7b71afd8",
+    "sha256": "81bcee1c190422617ecec5060d5c56cac2493d8ea917f010d9ecb2c97e1c8082",
     "type": "eql",
-    "version": 206
+    "version": 207
   },
   "f9753455-8d55-4ad8-b70a-e07b6f18deea": {
     "rule_name": "Potential PowerShell Obfuscation via High Special Character Proportion",
-    "sha256": "3b05a3eb675347f627c2d4b98effbd8fe5cd8eb924ea7110b9fc947fc753525a",
+    "sha256": "f4ecfac994ce27c5df828787bc3fe44d2c88a7d8cb2f7beadb192bfe6df6be27",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "f9790abf-bd0c-45f9-8b5f-d0b74015e029": {
     "rule_name": "Privileged Account Brute Force",
@@ -9596,9 +9824,9 @@
   },
   "f9abcddc-a05d-4345-a81d-000b79aa5525": {
     "rule_name": "Potential PowerShell Obfuscation via High Numeric Character Proportion",
-    "sha256": "20ca9752cbc305147351fbd73c5705e988791b2a8b5ed27d0af2e1bd6bd47449",
+    "sha256": "bbaf16b946a85e6a3a29b77761c451769919a0667a80fcbada4fb30cee49f46d",
     "type": "esql",
-    "version": 6
+    "version": 7
   },
   "fa01341d-6662-426b-9d0c-6d81e33c8a9d": {
     "rule_name": "Remote File Copy to a Hidden Share",
@@ -9650,9 +9878,9 @@
   },
   "fb16f9ef-cb03-4234-adc2-44641f3b71ee": {
     "rule_name": "Azure OpenAI Insecure Output Handling",
-    "sha256": "be48db6e30b0170a36b5062f126e73ca47624d8431d7c42a25da373ec3441207",
+    "sha256": "799952ea9ded7fa71e9d842e3a27b248bc6c4d49ac83aa56949ca1bd6d6447df",
     "type": "esql",
-    "version": 4
+    "version": 5
   },
   "fb3ca230-af4e-11f0-900d-f661ea17fbcc": {
     "rule_name": "Okta Multiple OS Names Detected for a Single DT Hash",
@@ -9752,9 +9980,9 @@
   },
   "fd4a992d-6130-4802-9ff8-829b89ae801f": {
     "rule_name": "Potential Application Shimming via Sdbinst",
-    "sha256": "d31dcef398fc63196c928a47cf1a242e1bc03e206145f2973e6f2717c0a47417",
+    "sha256": "d9690771206500e07e7c25755beb650bddea9bff417f6e2bbdf01c97d2926969",
     "type": "eql",
-    "version": 316
+    "version": 317
   },
   "fd70c98a-c410-42dc-a2e3-761c71848acf": {
     "rule_name": "Suspicious CertUtil Commands",
@@ -9800,9 +10028,9 @@
   },
   "fe8d6507-b543-4bbc-849f-dc0da6db29f6": {
     "rule_name": "Spike in host-based traffic",
-    "sha256": "4fa29254fdfdc90f04cb22e0b5a84b3f62769dda8e36b0ebe462188b99fd92d4",
+    "sha256": "7d0904f2a6c2a004781895aff437401514b91b5b08ebb3f2ee87de5341e110a7",
     "type": "machine_learning",
-    "version": 3
+    "version": 4
   },
   "feafdc51-c575-4ed2-89dd-8e20badc2d6c": {
     "rule_name": "Potential Masquerading as Business App Installer",
